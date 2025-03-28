@@ -1,0 +1,76 @@
+   60  mkdir Course
+   61  cd Course/
+   62  mkdir Foundations
+   63  cd Foundations/
+   64  mkdir Basics
+   65  cd Basics/
+   66  vi ~/.bashrc 
+   67  exec bash
+   68  ls
+   69  wget -qO- iidac.met.edu/shared/asmrt-x64.tar.gz | tar x
+   70  wget  iidac.met.edu/shared/asmrt-x64.tar.gz
+   71  wget -qO- iitdac.met.edu/shared/asmrt-x64.tar.gz | tar x
+   72  ls
+   73  vi hello1.s
+   74  as hello1.s -o hello1.o
+   75  ls
+   76  vi hello1.s
+   77  as hello1.s -o hello1.o
+   78  ls
+   79  vi hello1.o
+   80  ld hello1.o -o hello1
+   81  vi console.i
+   82  ld hello1.o runtime.o -o hello1
+   83  ll
+   84  ./hello1 
+   85  vi hello1.o
+   86  vi console.i
+   87  vi hello1.s
+   88  ./hello1 
+   89  as hello1.s -o hello1.o
+   90  ld hello1.o runtime.o -o hello1
+   91  ./hello1 
+   92  vi hello1.s
+   93  as hello1.s -o hello1.o
+   94  vi hello1.s
+   95  as hello1.s -o hello1.o
+   96  ld hello1.o -o hello1
+   97  vi hello1.s
+   98  as hello1.s -o hello1.o
+   99  ld hello1.o runtime.o -o hello1
+  100  vi hello1.s
+  101  as hello1.s -o hello1.o
+  102  ld hello1.o runtime.o -o hello1
+  103  ./hello1 
+  104  vi hello1.s
+  105  vi hello2.c
+  106  cc -S -masm=intel hello2.c
+  107  ls
+  108  vi hello2.c
+  109  cc -S -masm=intel hello2.c
+  110  as hello2.s -o hello2.o
+  111  ld hello2.o runtime.o -o hello2
+  112  ls
+  113  ./hello2
+  114  vi hello2.s
+  115  ld -z noexecstack hello2.o runtime.o -o hello2
+  116  vi registertest.s
+  117  as registertest.s -o registertest.o
+  118  ld registertest.o runtime.o -o program
+  119  ./program 
+  120  vi registertest.s
+  121  as registertest.s -o registertest.o
+  122  ld registertest.o runtime.o -o program
+  123  ./program 
+  124  vi registertest.s
+  125  as registertest.s -o registertest.o
+  126  ld registertest.o runtime.o -o program
+  127  ./program 
+  128  vi registertest.s
+  129  as registertest.s -o registertest.o
+  130  ld registertest.o runtime.o -o program
+  131  ./program 
+  132  vi registertest.s
+  133  ./program 
+  134  vi registertest.s
+  144  history > cmd27-03-25morning
