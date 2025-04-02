@@ -1,0 +1,77 @@
+    1  cp ../Basics/dijkstra.o .
+    2  objdump -t dijkstra.o 
+    3  vi extfunctest.cpp
+    4  c++ extfunctest.cpp -o program
+    5  c++ extfunctest.cpp dijkstra.o -o program
+    6  cc -S extfunctest.cpp 
+    7  ls
+    8  vi extfunctest.s
+    9  vi extfunctest.cpp
+   10  c++ extfunctest.cpp dijkstra.o -o program
+   11  ./program 
+   12  vi extfunctest.cpp
+   13  c++ extfunctest.cpp dijkstra.o -o program
+   14  vi extfunctest.cpp
+   15  c++ extfunctest.cpp dijkstra.o -o program
+   16  vi extfunctest.cpp
+   17  vi computation.cpp
+   18  vi exceptest.cpp
+   19  c++ exceptest.cpp -o program 
+   20  c++ exceptest.cpp computation.cpp -o program 
+   21  ./program 
+   22  c++ -c computation.cpp 
+   23  ls
+   24  c++ exceptest.cpp computation.o -o program 
+   25  ./program 
+   26  vi exceptest.cpp
+   27  vi computation.h
+   28  vi exceptest.cpp 
+   29  c++ exceptest.cpp -o program 
+   30  c++ exceptest.cpp computation.o -o program 
+   31  vi computation.cpp 
+   32  c++ -c computation.cpp 
+   33  c++ exceptest.cpp computation.o -o program 
+   34  vi computation.cpp 
+   35  c++ -c computation.cpp 
+   36  vi computation.cpp 
+   37  c++ -c computation.cpp 
+   38  vi computation.cpp 
+   39  vi computation.h
+   40  c++ -c computation.cpp 
+   41  vi computation.h
+   42  c++ -c computation.cpp 
+   43  vi computation.cpp 
+   44  vi computation.h
+   45  c++ -c computation.cpp 
+   46  vi computation.h
+   47  vi computation.cpp 
+   48  c++ -c computation.cpp 
+   49  c++ exceptest.cpp computation.o -o program 
+   50  ./program 
+   51  vi computation.h
+   52  vi exceptest.cpp 
+   53  c++ exceptest.cpp computation.o -o program 
+   54  vi computation.h
+   55  c++ exceptest.cpp computation.o -o program 
+   56  vi exceptest.cpp 
+   57  vi computation.h
+   58  vi computation.cpp 
+   59  c++ -c computation.cpp 
+   60  vi exceptest.cpp 
+   61  c++ exceptest.cpp computation.o -o program 
+   62  ./program 
+   63  vi exceptest.cpp 
+   64  c++ exceptest.cpp computation.o -o program 
+   65  ./program 
+   66  vi computation.cpp 
+   67  vi exceptest.cpp 
+   68  c++ exceptest.cpp computation.o -o program 
+   69  vi exceptest.cpp 
+   70  c++ exceptest.cpp computation.o -o program 
+   71  ./program 
+   72  vi exceptest.cpp 
+   73  c++ exceptest.cpp computation.o -o program 
+   74  ./program 
+   75  vi exceptest.cpp 
+   76  cd ..
+   77  history >cmd31-03-25evening.txt 

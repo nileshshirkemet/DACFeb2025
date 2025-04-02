@@ -1,0 +1,31 @@
+    1  vi memaddrtest.s
+    2  as memaddrtest.s 
+    3  ld a.out runtime.o -o program
+    4  ./program 
+    5  as memaddrtest.s 
+    6  vi memaddrtest.s
+    7  as memaddrtest.s 
+    8  ld a.out runtime.o -o program
+    9  ./program 
+   10  vi memaddrtest.s
+   11  cd ..
+   12  mkdir Syntax
+   13  cd Syntax/
+   14  vi hello.cpp
+   15  c++ hello.cpp -o hello
+   16  ls
+   17  c++ -c hello.cpp 
+   18  ls
+   19  rm hello.o
+   20  c++ -S hello.cpp 
+   21  ls
+   22  rm hello.s
+   23  c++ hello.cpp -o hello
+   24  ./hello 
+   25  vi hello.cpp
+   26  ./hello 
+   27  vi hello.cpp
+   28  ls
+   29  cd ..
+   30  ls
+   31  history >cmd28-03-25evening.txt 

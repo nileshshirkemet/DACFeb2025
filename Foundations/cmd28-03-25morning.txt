@@ -1,0 +1,17 @@
+    1  cd Basics/
+    2  vi dijkstra.s
+    3  as dijkstra.s -o dijkstra.o
+    4  vi extproctest.s
+    5  as extproctest.s 
+    6  ld a.out runtime.o -o program
+    7  ld a.out dijkstra.o runtime.o -o program
+    8  ./program 
+    9  vi extproctest.s
+   10  ld a.out dijkstra.o runtime.o -o program
+   11  ./program 
+   12* ld -shared dijkstra.o -o dijkstra.so1
+   13  ls
+   14  vi dynlinktest.py
+   15  python3 dynlinktest.py 
+   16  vi dynlinktest.py 
+   17  history > ../../Foundations/cmd28-03-25morning.txt 
