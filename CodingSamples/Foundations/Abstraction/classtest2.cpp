@@ -1,10 +1,10 @@
-#include "banner1.h"
+#include "banner2.h"
 #include <cstdio>
 
 double BannerPrice(Banner poster, int copies)
 {
 	float rate = copies < 5 ? 0.95 : 0.80;
-	return copies * rate * poster.Area(); //Banner::Area(&poster)
+	return copies * rate * poster.Area();
 }
 
 int main(void)
@@ -21,7 +21,9 @@ int main(void)
 	scanf("%f%f", &w, &h);
 
 	Banner c;
-	c.Resize(w, h); //Banner::Resize(&c, w, h)
+	c.Resize(w, h);
 	printf("Total payment for your banner = %.2lf\n", BannerPrice(c, n));
+	c.Reshape(Geometry::Elliptical);
+	printf("Total payment for your elliptical banner = %.2lf\n", BannerPrice(c, n));
 }
 

@@ -1,0 +1,22 @@
+    1  cd Course/Foundations/Polymorphism/
+    2  vi boards.h
+    3  vi boards.cpp
+    4  c++ -c boards.cpp 
+    5  vi boards.h
+    6  c++ -c boards.cpp 
+    7  vi boards.h
+    8  c++ -c boards.cpp 
+    9  vi adttest.cpp
+   10  c++ adttest.cpp boards.o -o peogram\
+   11  c++ adttest.cpp boards.o -o program
+   12  vi adttest.cpp
+   13  c++ adttest.cpp boards.o -o program
+   14  vi adttest.cpp
+   15  c++ adttest.cpp boards.o -o program
+   16  vi adttest.cpp
+   17  c++ adttest.cpp boards.o -o program
+   18  ./program 
+   19  vi adttest.cpp
+   20  cd ..
+   21  ls
+   22  history >cmd04-04-25evening.txt 

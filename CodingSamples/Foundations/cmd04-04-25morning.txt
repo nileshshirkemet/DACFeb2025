@@ -1,0 +1,21 @@
+    1  cd Course/Foundations/
+    2  mkdir Polymorphism
+    3  cd Polymorphism/
+    4  vi banners.h
+    5  vi derivedclasstest.cpp
+    6  c++ derivedclasstest.cpp -o program
+    7  vi derivedclasstest.cpp
+    8  c++ derivedclasstest.cpp -o program
+    9  ./program 
+   10  vi derivedclasstest.cpp
+   11  vi banners.h 
+   12  c++ derivedclasstest.cpp -o program
+   13  ./program 
+   14  vi banners.h 
+   15  vi derivedclasstest.cpp
+   16  c++ derivedclasstest.cpp -o program
+   17  ./program 
+   18  vi derivedclasstest.cpp
+   19  vi banners.h 
+   20  vi derivedclasstest.cpp 
+   21  history > ../../Foundations/cmd04-04-25morning.txt 

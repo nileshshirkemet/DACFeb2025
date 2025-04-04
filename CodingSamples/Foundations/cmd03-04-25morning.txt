@@ -1,0 +1,250 @@
+    1  ls
+    2  sudo apt update
+    3  sudo apt upgrade 
+    4  sudo apt install gcc
+    5  sudo apt install build-essential 
+    6  gcc'
+    7  gcc
+    8  c++
+    9  cc
+   10  exit
+   11  cp .bashrc Originalbashrc
+   12  ls
+   13  mv Originalbashrc .Originalbashrc 
+   14  ls
+   15  ls -a
+   16  ll
+   17  ls
+   18  sudo cp -r /mnt/d/SW/dotnet-sdk-9.0.202-linux-x64.tar.gz .
+   19  sudo cp -r /mnt/d/SW/jdk-24_linux-x64_bin.tar.gz .
+   20  ls
+   21  mv jdk-24_linux-x64_bin.tar.gz jdk.tar.gz
+   22  ls
+   23  tar xvf jdk.tar.gz
+   24  mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-9.0.202-linux-x64.tar.gz -C $HOME/dotnet
+   25  ls
+   26  sudo rm dotnet-sdk-9.0.202-linux-x64.tar.gz 
+   27  sudo rm jdk.tar.gz 
+   28  ls
+   29  ls jdk-24/
+   30  ls dotnet/
+   31  ls
+   32  vi .bashrc
+   33  exit
+   34  ls
+   35  javac
+   36  java --version
+   37  dotnet --version
+   38  code .
+   39  gcc
+   40  g++
+   41  exit
+   42  gcc
+   43  c++
+   44  c
+   45  cc
+   46  g++
+   47  ls
+   48  ls DAC0225/
+   49  ls
+   50  rm -r DAC0225/
+   51  exit
+   52  ls
+   53  java --version
+   54  dotnet --version
+   55  gcc
+   56  g++
+   57  cc
+   58  exit
+   59  exit
+   60  mkdir Course
+   61  cd Course/
+   62  mkdir Foundations
+   63  cd Foundations/
+   64  mkdir Basics
+   65  cd Basics/
+   66  vi ~/.bashrc 
+   67  exec bash
+   68  cd Course/Foundations/Basics/
+   69  cd ~
+   70  wget iitdac.met.edu/shared/my.vimrc
+   71  mv my.vimrc .vimrc
+   72  vi .vimrc 
+   73  cd ~/Course/Foundations/Basics/
+   74  vi registertest.s 
+   75  exit
+   76  mkdir Exp
+   77  cd Exp/
+   78  wget iitdac.met.edu/shared/LinAsm.zip
+   79  unzip LinAsm.zip 
+   80  sudo apt install unzip
+   81  unzip LinAsm.zip 
+   82  ls
+   83  cd LinAsm/
+   84  ls
+   85  cd x64/
+   86  ls
+   87  vi src/syscore.s 
+   88  as src/syscore.s src/decsup.s src/intsup.s 
+   89  ls
+   90  as src/syscore.s src/decsup.s src/intsup.s -o runtime.o
+   91  ls
+   92  objdump runtime.o 
+   93  objdump -t runtime.o 
+   94  cp runtime.o ~/Exp/
+   95  ls
+   96  cp ~/Course/Foundations/Basics/console.* .
+   97  cp ~/Course/Foundations/Basics/hello1.s .
+   98  as hello1.s -o hello1.o
+   99  ld hello1.o runtime.o -o hello1
+  100  vi src/syscore.s 
+  101  as src/syscore.s src/decsup.s src/intsup.s -o runtime.o
+  102  ld hello1.o runtime.o -o hello1
+  103  cd Exp/
+  104  vi src/syscore.s 
+  105  :q
+  106  ls
+  107  cd LinAsm/
+  108  ls
+  109  cd x64/
+  110  ls
+  111  vi src/syscore.s 
+  112  as -z noexecstack src/syscore.s src/decsup.s src/intsup.s -o runtime.o
+  113  as --help
+  114  as --noexecstack src/syscore.s src/decsup.s src/intsup.s -o runtime.o
+  115  ls
+  116  cp ~/Course/Foundations/Basics/hello2.c
+  117  cp ~/Course/Foundations/Basics/hello2.c .
+  118  cc -S -masm=intel hello2.c 
+  119  as hello2.s -o hello2.o
+  120  ld hello2.o runtime.o -o hello2
+  121  ./hello2
+  122  cp runtime.o ~/Course/Foundations/Basics/
+  123  exit
+  124  cd Exp/LinAsm/x64/
+  125  ls
+  126  ld hello1.o runtime.o -o hello1
+  127  vi console.i
+  128  as hello1.s -o hello1.o
+  129  ld hello1.o runtime.o -o hello1
+  130  ld hello2.o runtime.o -o hello2
+  131  cp console.i ~/Course/Foundations/Basics/
+  132  cp runtime.o ~/Course/Foundations/Basics/
+  133  exit
+  134  cd Course/Foundations/Basics/
+  135  ./program 
+  136  exit
+  137  sudo apt install openssh-server
+  138  sudo vi /etc/ssh/sshd_config
+  139  sudo service ssh restart
+  140  systemctl status sshd
+  141  netstat -pnlt
+  142  sudo apt install net-tools
+  143  netstat -pnlt
+  144  ifconfig 
+  145  exit
+  146  ls
+  147  dotnet --version
+  148  exit
+  149  exit
+  150  exit
+  151  ls
+  152  cd Course/Foundations/Syntax/
+  153  ls
+  154  ./program 
+  155  visudo
+  156  sudo visudo
+  157  exit
+  158  sudo ll
+  159  sudo ss
+  160  exit
+  161  touch .hushlogin
+  162  exit
+  163  cd Syntax/
+  164  ls
+  165  vi variabletest.cpp
+  166  c++ variabletest.cpp -o program
+  167  vi variabletest.cpp
+  168  c++ variabletest.cpp -o program
+  169  ./program 
+  170  vi variabletest.cpp
+  171  vi arraytest.cpp
+  172  c++ arraytest.cpp -o program 
+  173  ./program 
+  174  vi arraytest.cpp
+  175  c++ arraytest.cpp -o program 
+  176  ./program 
+  177  vi arraytest.cpp
+  178  c++ arraytest.cpp -o program 
+  179  ./program 
+  180  vi arraytest.cpp
+  181  c++ arraytest.cpp -o program 
+  182  vi arraytest.cpp
+  183  c++ arraytest.cpp -o program 
+  184  ./program 
+  185  vi ifelsetest.cpp
+  186  c++ ifelsetest.cpp 
+  187  c++ ifelsetest.cpp -o program
+  188  ./program 
+  189  vi ifelsetest.cpp
+  190  vi switchtest.cpp
+  191  c++ switchtest.cpp -o program 
+  192  ./program 
+  193  vi switchtest.cpp
+  194  vi dowhiletest.cpp
+  195  c++ dowhiletest.cpp -o program 
+  196  ./program 
+  197  vi dowhiletest.cpp
+  198  vi whiletest.cpp
+  199  c++ whiletest.cpp -o program 
+  200  ./program 
+  201  vi whiletest.cpp
+  202  vi fortest.cpp
+  203  c++ fortest.cpp -o program 
+  204  ./program 
+  205  vi fortest.cpp
+  206  history > ../../Foundations/cmd29-03-25morning.txt 
+  207  vi ../../Foundations/cmd29-03-25morning.txt 
+  208  cp -r  ../../Foundations /mnt/d/DAC0225/
+  209  cd Course/Foundations/Abstraction/
+  210  vi interval1.h 
+  211  exit
+  212  cd Course/Foundations/Abstraction/
+  213  cp objectptrtest.cpp objectreftest.cpp
+  214  vi objectreftest.cpp 
+  215  c++ objectreftest.cpp -o program 
+  216  ./program 
+  217  cp interval1.h interval2.h
+  218  vi interval2.h 
+  219  vi opovldtest.cpp
+  220  c++ opovldtest.cpp -o program 
+  221  ./program 
+  222  vi interval2.h 
+  223  c++ opovldtest.cpp -o program 
+  224  ./program 
+  225  vi interval2.h 
+  226  c++ opovldtest.cpp -o program 
+  227  ./program 
+  228  vi interval2.h 
+  229  c++ opovldtest.cpp -o program 
+  230  ./program 
+  231  vi interval2.h 
+  232  c++ opovldtest.cpp -o program 
+  233  ./program 
+  234  vi interval2.h 
+  235  c++ opovldtest.cpp -o program 
+  236  ./program 
+  237  vi opovldtest.cpp
+  238  c++ opovldtest.cpp -o program 
+  239  ./program 
+  240  vi opovldtest.cpp
+  241  c++ opovldtest.cpp -o program 
+  242  ./program 
+  243  vi opovldtest.cpp
+  244  c++ opovldtest.cpp -o program 
+  245  vi opovldtest.cpp
+  246  vi interval2.h 
+  247  c++ opovldtest.cpp -o program 
+  248  ./program 
+  249  vi interval2.h 
+  250  history > ../../Foundations/cmd03-04-25evening.txt 
