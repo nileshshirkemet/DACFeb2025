@@ -23,7 +23,7 @@ namespace Ads
 
 	}
 
-	RectangularBoard::RectangularBoard(float width, float height, Medium make)
+	RectangularBoard::RectangularBoard(float width, float height, Medium make) : Signboard(1)
 	{
 		if(width > height)
 		{
@@ -43,15 +43,21 @@ namespace Ads
 		return length * breadth;
 	}
 
-	CircularBoard::CircularBoard(float diameter, Medium make)
+	CircularBoard::CircularBoard(float diameter, Medium make) : Signboard(2)
 	{
 		radius = diameter / 2;
 		material = make;
+		layers = make;
 	}
 
 	double CircularBoard::Area() const
 	{
 		return PI * radius * radius;
+	}
+
+	double CircularBoard::Extra() const
+	{
+		return (4 - PI) * radius * radius * layers;
 	}
 }
 

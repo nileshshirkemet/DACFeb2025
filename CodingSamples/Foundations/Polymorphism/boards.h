@@ -19,11 +19,27 @@ namespace Ads
 		virtual double Area() const = 0;
 		double Price() const;
 		virtual ~Signboard() {}
+		Signboard(int id){}
 	protected: //members are visible in the derived class
 		Medium material;
 	};
 
-	class RectangularBoard : public Signboard
+	class Wasteful
+	{
+	public:
+		virtual double Extra() const = 0;
+		virtual ~Wasteful() {}
+	protected:
+		int layers;
+	};
+
+	//multiple classes which inherit from same virtual base share
+	//a single subobject of this base within an instance of a class
+	//which derives from all of them to avoid ambiguity in type casting
+	//(known as diamond-of-death) which occurs when a class that
+	//inherits from multiple classes with common base class produces
+	//an instance with multiple copies of subobject of that base class
+	class RectangularBoard : public virtual Signboard
 	{
 	public:
 		RectangularBoard(float width, float height, Medium make);
@@ -32,11 +48,14 @@ namespace Ads
 		float length, breadth;
 	};
 
-	class CircularBoard : public Signboard
+	//multiple inheritance - a class derives directly from
+	//more than one base class
+	class CircularBoard : public virtual Signboard, public Wasteful
 	{
 	public:	
 		CircularBoard(float diameter, Medium make);
 		double Area() const;
+		double Extra() const;
 	private:
 		float radius;
 	};

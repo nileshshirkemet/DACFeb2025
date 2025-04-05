@@ -1,0 +1,26 @@
+    1  cp adttest.cpp virtbasetest.cpp
+    2  vi virtbasetest.cpp 
+    3  c++ virtbasetest.cpp boards.o -o program
+    4  vi virtbasetest.cpp 
+    5  vi boards.h
+    6  c++ -c boards.cpp
+    7  c++ virtbasetest.cpp boards.o -o program
+    8  ./program
+    9  vi boards.h
+   10  c++ -c boards.cpp
+   11  c++ virtbasetest.cpp boards.o -o program
+   12  vi boards.h
+   13  c++ -c boards.cpp
+   14  vi boards.h
+   15  c++ virtbasetest.cpp boards.o -o program
+   16  c++ -c boards.cpp
+   17  vi boards.h
+   18  vi boards.cpp
+   19  c++ -c boards.cpp
+   20  c++ virtbasetest.cpp boards.o -o program
+   21  vi virtbasetest.cpp 
+   22  c++ virtbasetest.cpp boards.o -o program
+   23  vi virtbasetest.cpp 
+   24  cd ..
+   25  ls
+   26  history >cmd05-04-25evening.txt 

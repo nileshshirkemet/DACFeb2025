@@ -1,0 +1,18 @@
+    1  cd Polymorphism/
+    2  vi adttest.cpp 
+    3  c++ adttest.cpp boards.o -o program 
+    4  ./program 
+    5  vi boards.h
+    6  vi boards.cpp
+    7  c++ -c boards.cpp 
+    8  cp adttest.cpp rttitest.cpp
+    9  vi rttitest.cpp 
+   10  ./program 
+   11  c++ rttitest.cpp boards.o -o program2
+   12  ./program 
+   13  vi boards.cpp
+   14  vi rttitest.cpp 
+   15  c++ rttitest.cpp boards.o -o program2
+   16  ./program
+   17  ./program2
+   18  history > ../../Foundations/cmd05-04-25morning.txt 
