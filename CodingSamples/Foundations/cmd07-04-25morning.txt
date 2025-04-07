@@ -1,0 +1,44 @@
+    1  cls
+    2  ls
+    3  mkdir Advanced
+    4  cd Advanced/
+    5  vi functmplttest1.cpp
+    6  c++ functmplttest1.cpp -o program
+    7  ./program 
+    8  vi functmplttest1.cpp
+    9  c++ functmplttest1.cpp -o program
+   10  vi functmplttest1.cpp
+   11  c++ functmplttest1.cpp -o program
+   12  ./program 
+   13  vi functmplttest1.cpp
+   14  cp functmplttest1.cpp functmplttest1.cpp0
+   15  vi functmplttest1.cpp
+   16  c++ functmplttest1.cpp -o program
+   17  ./program 
+   18  vi functmplttest1.cpp
+   19  c++ functmplttest1.cpp -o program
+   20  vi functmplttest1.cpp
+   21  c++ functmplttest1.cpp -o program
+   22  ./program 
+   23  ./program Jack Jill
+   24  vi functmplttest1.cpp
+   25  c++ functmplttest1.cpp -o program
+   26  vi functmplttest1.cpp
+   27  c++ functmplttest1.cpp -o program
+   28  ./program 2.5
+   29  vi functmplttest1.cpp
+   30  vi functmplttest2.cpp
+   31  c++ functmplttest2.cpp -o program 
+   32  vi functmplttest2.cpp
+   33  c++ functmplttest2.cpp -o program 
+   34  ./program 
+   35  vi functmplttest2.cpp
+   36  c++ functmplttest2.cpp -o program 
+   37  ./program 
+   38  vi functmplttest2.cpp
+   39  c++ functmplttest2.cpp -o program 
+   40  vi functmplttest2.cpp
+   41  c++ functmplttest2.cpp -o program 
+   42  ./program 
+   43  vi functmplttest2.cpp
+   44  history > ../../Foundations/cmd07-04-25morning.txt 

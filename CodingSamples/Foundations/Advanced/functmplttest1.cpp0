@@ -1,0 +1,31 @@
+#include <iostream>
+#include <sstream>
+#include <string>
+
+using namespace std;
+
+double Select(int index, double first, double second)
+{
+	if(index % 2)
+		return first;
+	return second;
+}
+
+string Select(int index, string first, string second)
+{
+	if(index % 2)
+		return first;
+	return second;
+}
+
+int main(int argc, char* argv[])
+{
+	int n;
+	cout << "Selector: ";
+	cin >> n;
+
+	cout << "Selected double value = " << Select(n, 23.4, 32.1) << endl;
+	cout << "Selected string value = " << Select(n, "Tuesday", "Thursday") << endl;
+}
+
+
