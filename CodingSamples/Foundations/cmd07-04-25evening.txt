@@ -1,0 +1,25 @@
+    1  vi classtemplttest1.cpp
+    2  c++ classtemplttest1.cpp -o program 
+    3  vi classtemplttest1.cpp
+    4  c++ classtemplttest1.cpp -o program 
+    5  ./program 
+    6  vi classtemplttest1.cpp
+    7  vi classtemplttest2.cpp 
+    8  c++ classtemplttest2.cpp -o program 
+    9  vi classtemplttest2.cpp 
+   10  c++ classtemplttest2.cpp -o program 
+   11  ./program 
+   12  vi classtemplttest2.cpp 
+   13  c++ classtemplttest2.cpp -o program 
+   14  ./program 
+   15  vi classtemplttest2.cpp 
+   16  c++ classtemplttest2.cpp -o program 
+   17  vi classtemplttest2.cpp 
+   18  c++ classtemplttest2.cpp -o program 
+   19  ./program 
+   20  vi classtemplttest2.cpp 
+   21  c++ classtemplttest2.cpp -o program 
+   22  ./program 
+   23  vi classtemplttest2.cpp 
+   24  cd ..
+   25  history >cmd07-04-25evening.txt 
