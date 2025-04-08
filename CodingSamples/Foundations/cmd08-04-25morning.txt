@@ -1,0 +1,52 @@
+    1  cd Foundations/Advanced/
+    2  ls
+    3  cp ../Abstraction/interval2.h interval.h
+    4  vi interval.h 
+    5  vi lambdaexprtest1.cpp
+    6  c++ lambdaexprtest1.cpp -o program 
+    7  ./program 
+    8  vi lambdaexprtest1.cpp
+    9  c++ lambdaexprtest1.cpp -o program 
+   10  ./program 
+   11  vi lambdaexprtest1.cpp
+   12  c++ lambdaexprtest1.cpp -o program 
+   13  ./program 
+   14  vi lambdaexprtest1.cpp
+   15  c++ lambdaexprtest1.cpp -o program 
+   16  vi lambdaexprtest1.cpp
+   17  c++ lambdaexprtest1.cpp -o program 
+   18  vi interval.h 
+   19  c++ lambdaexprtest1.cpp -o program 
+   20  vi interval.h 
+   21  vi lambdaexprtest1.cpp
+   22  c++ lambdaexprtest1.cpp -o program 
+   23  vi interval.h 
+   24  c++ lambdaexprtest1.cpp -o program 
+   25  vi lambdaexprtest1.cpp
+   26  c++ lambdaexprtest1.cpp -o program 
+   27  ./program 
+   28  vi lambdaexprtest1.cpp
+   29  c++ lambdaexprtest1.cpp -o program 
+   30  ./program 
+   31  vi lambdaexprtest1.cpp
+   32  c++ lambdaexprtest1.cpp -o program 
+   33  ./program 
+   34  vi lambdaexprtest1.cpp
+   35  vi lambdaexprtest2.cpp 
+   36  c++ lambdaexprtest2 -o program 
+   37  c++ lambdaexprtest2.cpp -o program 
+   38  c++ -std=c++20 lambdaexprtest2.cpp -o program 
+   39  c++ lambdaexprtest2.cpp -o program 
+   40  vi lambdaexprtest2.cpp 
+   41  c++ lambdaexprtest2.cpp -o program 
+   42  c++ -std=c++20 lambdaexprtest2.cpp -o program 
+   43  vi lambdaexprtest2.cpp 
+   44  c++ -std=c++20 lambdaexprtest2.cpp -o program 
+   45  ./program 
+   46  vi lambdaexprtest2.cpp 
+   47  c++ -std=c++20 lambdaexprtest2.cpp -o program 
+   48  vi lambdaexprtest2.cpp 
+   49  c++ -std=c++20 lambdaexprtest2.cpp -o program 
+   50  ./program 
+   51  vi lambdaexprtest2.cpp 
+   52  history > ../../Foundations/cmd08-04-25morning.txt 
