@@ -22,8 +22,9 @@ namespace Payroll
         {
         }
 
-        //property - it is a member which provides method for getting/setting
-        //the value of a field using field-like syntax
+        //property - it is a member of class which provides methods 
+        //for getting/setting a value associated with its instance
+        //using a field-like syntax
         public int Hours
         {
             get

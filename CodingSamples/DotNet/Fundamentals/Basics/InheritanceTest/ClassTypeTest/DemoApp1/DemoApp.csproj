@@ -4,6 +4,8 @@
 		<TargetFramework>net9.0</TargetFramework>
 		<!-- automatically import namespaces common to this type of project -->
 		<ImplicitUsings>enable</ImplicitUsings>
+		<!-- treat reference types as non-nullable types -->
+		<Nullable>enable</Nullable>
 	</PropertyGroup>
 </Project>
 
