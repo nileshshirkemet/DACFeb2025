@@ -1,0 +1,22 @@
+    1  cd Course/DotNet/Fundamentals/Basics/StructTypeTest/DemoApp2
+    2  ls
+    3  code .
+    4  dotnet run 50000 12
+    5  dotnet run 80000 5
+    6  dotnet run 180000 5
+    7  dotnet run 280000 5
+    8  dotnet run 280000 6
+    9  cd ../..
+   10  ls
+   11  InheritanceTest
+   12  mkdir InheritanceTest
+   13  cd InheritanceTest/
+   14  mkdir ClassTypeTest
+   15  cd ClassTypeTest/
+   16  mkdir DemoApp1
+   17  cd DemoApp1/
+   18  cp ../../../BuiltinTypesTest/DemoApp/DemoApp.csproj .
+   19  code .
+   20  dotnet build
+   21  dotnet ildasm bin/Debug/net9.0/DemoApp.dll 
+   22  history > ../../../../../cmd10-04-25morning.txt 

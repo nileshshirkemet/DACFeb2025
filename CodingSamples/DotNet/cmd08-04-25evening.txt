@@ -1,0 +1,80 @@
+  344  ilasm
+  345  wget iitdac.met.edu/shared/dotnet/iltools.tar.gz
+  346  tar tf iltools.tar.gz 
+  347  tar xf iltools.tar.gz 
+  348  ilasm
+  349  dotnet ilasm
+  350  path
+  351  echo $PATH
+  352  vi .bashrc 
+  353  exec bash
+  354  echo $PATH
+  355  ilasm
+  356  dotnet ilasm
+  357  cd Exp
+  358  mv ~/Hello.il .
+  359  mv ~/Hello.runtimeconfig.json .
+  360  dotnet --list-runtimes
+  361  vi Hello.runtimeconfig.json 
+  362  ilasm -dll Hello.il
+  363  dotnet ilasm -dll Hello.il
+  364  ls
+  365  dotnet Hello.dll
+  366  ls ~/dotnet
+  367  ls ~/dotnet/shared/
+  368  exit
+  369  cd Exp
+  370  mkdir -p dotnet/shared
+  371  mv ~/.local/bin/dotnet-* dotnet/shared/
+  372  ls dotnet/shared/
+  373  ilasm
+  374  dotnet ilasm
+  375  tar iltools.tar.gz dotnet/
+  376  tar cf iltools.tar.gz dotnet/
+  377  tar tf iltools.tar.gz 
+  378  vi ~/.bashrc 
+  379  cd ..
+  380  mv iltools.tar.gz 
+  381  rm iltools.tar.gz 
+  382  mv Exp/iltools.tar.gz 
+  383  mv Exp/iltools.tar.gz .
+  384  exec bash
+  385  echo $PATH
+  386  tar tf iltools.tar.gz 
+  387  tar xf iltools.tar.gz 
+  388  dotnet ilasm
+  389  scp iltools.tar.gz efaculty1@iitdac.met.edu:TEMP
+  390  scp iltools.tar.gz dacfaculty@iitdac.met.edu:TEMP
+  391  exot
+  392  exit
+  393  dotnet ilasm
+  394  exec bash
+  395  dotnet --version
+  396  cd ../..
+  397  mkdir DotNet
+  398  cd DotNet/
+  399  mkdir Fundamentals
+  400  cd Fundamentals/
+  401  mkdir Basics
+  402  cd Basics/
+  403  vi Hello.il
+  404  dotnet ilasm -dll Hello.il 
+  405  ls
+  406  vi Hello.runtimeconfig.json
+  407  dotnet Hello.dll
+  408  vi Hello.runtimeconfig.json
+  409  dotnet Hello.dll
+  410  vi Hello.runtimeconfig.json
+  411  vi Hello.il
+  412  vi Hello.runtimeconfig.json 
+  413  dotnet Hello.dll
+  414  cd ~
+  415  wget -q iitdac.met.edu/shared/dotnet/iltools.tar.gz
+  416  ls
+  417  tar xf iltools.tar.gz 
+  418  vi .bashrc 
+  419  ls dotnet/shared/
+  420  exec bash
+  421  cd Course/DotNet/Fundamentals/Basics/
+  422  cd ..
+  423  history >cmd08evening.txt

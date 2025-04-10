@@ -1,0 +1,20 @@
+    1  code .
+    2  dotnet run
+    3  cd ..
+    4  mkdir DemoApp2
+    5  cd DemoApp2/
+    6  cp ../../../StructTypeTest/DemoApp1/DemoApp.csproj .
+    7  code .
+    8  cd ..
+    9  ls
+   10  cd ..
+   11  ls
+   12  cd ..
+   13  ls
+   14  cd ..
+   15  cd Fundamentals/
+   16  cd Basics
+   17  ls
+   18  cd ..
+   19  ls
+   20  history >cmd10-04-25evening.txt 

@@ -1,0 +1,23 @@
+    1  pwd
+    2  ls
+    3  cd Fundamentals/
+    4  cd Basics/
+    5  ls
+    6  mkdir StructTypeTest
+    7  cd StructTypeTest/
+    8  mkdir DemoApp1
+    9  cd DemoApp1/
+   10  cp ../../BuiltinTypesTest/DemoApp/DemoApp.csproj .
+   11  code .
+   12  dotnet run 200000 5
+   13  dotnet run 25000 12
+   14  dotnet run 150000 6
+   15  dotnet run 25000 12
+   16  dotnet run 150000 6
+   17  cd ../..
+   18  cd StructTypeTest/
+   19  cp -r DemoApp1/ DemoApp2
+   20  cd DemoApp2/
+   21  code .
+   22  dotnet run 150000 6
+   23  history > ../../../../cmd09-04-25evening.txt

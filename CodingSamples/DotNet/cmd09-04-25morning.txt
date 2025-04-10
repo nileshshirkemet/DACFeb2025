@@ -1,0 +1,26 @@
+    1  cd Fundamentals/Basics/
+    2  ls
+    3  mkdir BuiltinTypesTest
+    4  cd BuiltinTypesTest/
+    5  mkdir DemoApp
+    6  cd DemoApp/
+    7  vi Program.cs
+    8  vi DemoApp.csproj
+    9  dotnet build
+   10  ls bin/Debug/net9.0/
+   11  vi DemoApp.csproj
+   12  dotnet bin/Debug/net9.0/DemoApp.dll 
+   13  bin/Debug/net9.0/DemoApp
+   14  vi Program.cs
+   15  vi DemoApp.csproj
+   16  dotnet build -c Release
+   17  ls bin/
+   18  code .
+   19  dotnet build
+   20  dotnet bin/Debug/net9.0/DemoApp.dll 200000 5
+   21  dotnet run 200000 5
+   22  dotnet run 25000 15
+   23  uname -m
+   24  dotnet ildasm bin/Debug/net9.0/DemoApp.dll
+   25  pwd
+   26  history > ../../../../cmd09-04-25morning.txt
