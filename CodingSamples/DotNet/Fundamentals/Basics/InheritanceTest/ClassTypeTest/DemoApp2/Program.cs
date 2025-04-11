@@ -20,7 +20,10 @@ Console.WriteLine("-------------------------------");
 Console.WriteLine("a is equal to b: {0}", Equals(a, b));
 Console.WriteLine("a is equal to c: {0}", Equals(a, c));
 Console.WriteLine("d is equal to b: {0}", Equals(d, b));
-
+Console.WriteLine("-------------------------------");
+//using instance initializer syntax
+Box e = new Box {Length = 12.5f, Breadth = 8.5f, Height = 7.5f };
+Print("Box e", e);
 
 //a local function (included withing Main method), such
 //functions do not support overloading
