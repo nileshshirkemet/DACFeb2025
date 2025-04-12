@@ -15,8 +15,8 @@ if(args.Length > 0)
     {
         decimal payment = decimal.Parse(args[0]);
         Console.WriteLine("Jill is paying {0} to Jack...", payment);
-        Banker.Transfer(jill, jack, payment);
-        Console.WriteLine("Payment succeeded.");
+        jill.Transfer(payment, jack); //Banker.Transfer(jill, payment, jack);
+        Console.WriteLine("Payment succeeded."); 
     }
     catch(InsufficientFundsException)
     {

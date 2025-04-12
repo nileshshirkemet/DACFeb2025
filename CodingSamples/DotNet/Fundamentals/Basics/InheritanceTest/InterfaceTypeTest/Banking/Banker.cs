@@ -22,7 +22,11 @@ public static class Banker
         return acc;
     }
 
-    public static bool Transfer(Account source, Account target, decimal amount)
+    //extension method - a method of a static class whose first
+    //argument is qualified with this keyword, such a method can
+    //be called as an instance method of its first argument type
+    //by using the namespace of the class in which it is defined
+    public static bool Transfer(this Account source, decimal amount, Account target)
     {
         if(ReferenceEquals(source, target))
             return false;
