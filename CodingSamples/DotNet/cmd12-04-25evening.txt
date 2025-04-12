@@ -1,0 +1,9 @@
+    1  code ..
+    2  dotnet run 2000
+    3  cd ..
+    4  ls
+    5  cd ..
+    6  ls
+    7  cd .. 
+    8  ls
+    9  history >cmd12-04-25evening.txt 
