@@ -1,0 +1,31 @@
+﻿namespace DemoApp;
+
+class Program
+{
+    static string Select(int index, string first, string second)
+    {
+        if((index % 2) == 1)
+            return first;
+        return second;
+    }
+
+    static double Select(int index, double first, double second)
+    {
+        if((index % 2) == 1)
+            return first;
+        return second;
+    }
+
+    static void Main(string[] args)
+    {
+        if(args.Length > 0)
+        {
+            int s = int.Parse(args[0]);
+            string ss = Select(s, "Tuesday", "Thursday");
+            Console.WriteLine($"Selected string = {ss}");
+            double sd = Select(s, 23.4, 43.2);
+            Console.WriteLine($"Selected double = {sd}");
+            //Select(s, "April", 9.7);
+        }
+    }
+}
