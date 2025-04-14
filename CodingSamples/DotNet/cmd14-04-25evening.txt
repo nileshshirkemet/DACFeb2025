@@ -1,0 +1,36 @@
+    1  cd Fundamentals/Inheritance/InterfaceTypeTest/DemoApp2
+    2  code .
+    3  dotnet run Jack 120
+    4  dotnet run John 8
+    5  dotnet run Jim 90
+    6  dotnet run Jack 120
+    7  dotnet run John 8
+    8  dotnet run Jim 90
+    9  dotnet run Jack 120
+   10  dotnet run John 8
+   11  dotnet run Jim 90
+   12  cd ../..
+   13  cd ..
+   14  mkdir Generics
+   15  cd Generics/
+   16  mkdir TypeParamTest
+   17  cd TypeParamTest/
+   18  dotnet new console -n DemoApp -o DemoApp1 --use-main-program
+   19  dotnet new console -n DemoApp -o DemoApp1 --use-program-main
+   20  code .
+   21  cd DemoApp1/
+   22  code .
+   23  dotnet run
+   24  dotnet run 87
+   25  dotnet run 78
+   26  dotnet run 87
+   27  dotnet run 78
+   28  dotnet run 87
+   29  dotnet run 78
+   30  dotnet ildasm bin/Debug/net9.0/DemoApp.dll > DemoApp.il
+   31  code .
+   32  cd ..
+   33  ls
+   34  cd ..
+   35  ls
+   36  history >cmd14-04-25evening.txt
