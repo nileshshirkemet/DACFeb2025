@@ -1,0 +1,14 @@
+    1  cd Fundamentals/Inheritance/
+    2  ls
+    3  cd InterfaceTypeTest/
+    4  cd DemoApp1/
+    5  ls
+    6  code .
+    7  code ..
+    8  dotnet run
+    9  dotnet run 3000
+   10  cd ..
+   11  dotnet new console -n DemoApp -o DemoApp2 --use-program-main
+   12  cd DemoApp2/
+   13  code .
+   14  history > ../../../../cmd14-04-25morning.txt 

@@ -1,0 +1,10 @@
+    1  cd Fundamentals/Inheritance/InterfaceTypeTest/
+    2  ls
+    3  cd DemoApp1/
+    4  dotnet run
+    5  dotnet run 20000
+    6  dotnet run 2000
+    7  dotnet run 8000
+    8  dotnet run 18000
+    9  dotnet run 9OOO
+   10  history > ../../../../cmd12-04-25morning.txt 

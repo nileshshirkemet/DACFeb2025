@@ -1,0 +1,16 @@
+    1  dotnet run
+    2  cd ..
+    3  ls
+    4  cd ..
+    5  mkdir InterfaceTypeTest
+    6  cd InterfaceTypeTest/
+    7  dotnet new console -n DemoApp -o DemoApp1
+    8  cd DemoApp1/
+    9  ls
+   10  code .
+   11  cd ..
+   12  dotnet new classlib -n Banking
+   13  code .
+   14  cd ..
+   15  ls
+   16  history >cmd11-04-25evening.txt 
