@@ -1,0 +1,11 @@
+    1  dotnet run 87
+    2  cd Fundamentals/Generics/TypeParamTest/DemoApp1/
+    3  dotnet run 87
+    4  dotnet run 78
+    5  dotnet ildasm bin/Debug/net9.0/DemoApp.dll >> DemoApp.il
+    6  cp ../../../Inheritance/ClassTypeTest/DemoApp2/Interval.cs .
+    7  dotnet run
+    8  cd ..
+    9  ls
+   10  cd ..
+   11  history >cmd15-04-25morning.txt 
