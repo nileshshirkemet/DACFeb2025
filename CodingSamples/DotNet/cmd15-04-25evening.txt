@@ -1,0 +1,18 @@
+    1  cd Fundamentals/Generics/
+    2  ls
+    3  cd TypeParamTest/
+    4  ls
+    5  dotnet new console -n DemoApp -o DemoApp2 --use-program-main
+    6  cd DemoApp2
+    7  cp ../DemoApp1/Interval.cs .
+    8  code .
+    9  dotnet run
+   10  cd ..
+   11  mkdir EnumerableTest
+   12  cd EnumerableTest/
+   13  cp -r ../TypeParamTest/DemoApp2 DemoApp1
+   14  cd DemoApp1/
+   15  code .
+   16  dotnet run
+   17  cd ..
+   18  history >cmd15-04-25evening.txt 

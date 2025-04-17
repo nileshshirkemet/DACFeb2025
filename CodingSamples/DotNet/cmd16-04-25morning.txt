@@ -1,0 +1,4 @@
+    1  cd Fundamentals/Generics/EnumerableTest/DemoApp1/
+    2  ls
+    3  dotnet run
+    4  history > ../../../../cmd16-04-25morning.txt 

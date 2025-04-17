@@ -1,0 +1,15 @@
+    1  cd Course/DotNet/Fundamentals/Functional/
+    2  ls
+    3  mkdir LinqTest
+    4  cd LinqTest/
+    5  dotnet new console -n DemoApp
+    6  cd DemoApp/
+    7  code .
+    8  dotnet build
+    9  dotnet ildasm bin/Debug/net9.0/DemoApp.dll
+   10  dotnet run items intel
+   11  dotnet run items samsung
+   12  dotnet run items logitek
+   13  dotnet run items microsoft
+   14  dotnet run items apple
+   15  history > ../../../../cmd17-04-25morning.txt 

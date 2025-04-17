@@ -1,0 +1,28 @@
+    1  cd ..
+    2  dotnet new console -n DemoApp -o DemoApp2
+    3  cd DemoApp2/
+    4  code .
+    5  cp ../DemoApp1/Interval.cs .
+    6  dotnet run
+    7  dotnet run tuesday
+    8  dotnet run monday
+    9  dotnet run sunday
+   10  dotnet run monday
+   11  dotnet run sunday
+   12  dotnet run monday
+   13  dotnet run sunday
+   14  dotnet run monday
+   15  dotnet run sunday
+   16  cd ../..
+   17  cd ..
+   18  mkdir Functional
+   19  cd Functional/
+   20  mkdir DelegateTest
+   21  cd DelegateTest/
+   22  dotnet new console -n DemoApp --use-program-main
+   23  cd DemoApp/
+   24  code .
+   25  dotnet build
+   26  dotnet ildasm bin/Debug/net9.0/DemoApp.dll  >> DemoApp.il
+   27  dotnet run 200000 5
+   28  history > ../../../../cmd16-04-25evening.txt 
