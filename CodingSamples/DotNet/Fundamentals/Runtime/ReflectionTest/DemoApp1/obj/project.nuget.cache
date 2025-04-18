@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JU//YmA1qZE=",
+  "success": true,
+  "projectFilePath": "/home/cdac/Course/DotNet/Fundamentals/Runtime/ReflectionTest/DemoApp1/DemoApp.csproj",
+  "expectedPackageFiles": [
+    "/home/cdac/.nuget/packages/met.bank.finance/1.0.0/met.bank.finance.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
