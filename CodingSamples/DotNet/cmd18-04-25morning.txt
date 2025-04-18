@@ -1,0 +1,33 @@
+    1  cd Course/DotNet/Fundamentals/Runtime/ReflectionTest/
+    2  ls
+    3  dotnet new classlib -o BankFinLib
+    4  cd BankFinLib/
+    5  wget -O- iitdac.met.edu/shared/dotnet/finance.tar.gz | tar x
+    6  wget -O- iitdac.met.edu/shared/dotnet/Finance.tar.gz | tar x
+    7  code .
+    8  dotnet pack
+    9  jar tf bin/Release/Met.Bank.Finance.1.0.0.nupkg
+   10  cd ..
+   11  dotnet new console -n DemoApp -o DemoApp1
+   12  cd DemoApp1/
+   13  dotnet add package Met.Bank.Finance --version 1.0.0
+   14  dotnet add package Met.Bank.Finance --version 1.0.0 --source ../BankFinLib/bin/Release/
+   15  code .
+   16  ls
+   17  ls bin/Debug/net9.0/
+   18  dotnet build
+   19  ls bin/Debug/net9.0/
+   20  dotnet run 500000 EducationLoan
+   21  dotnet run 500000 PersonalLoan
+   22  dotnet run 500000 HomeLoan
+   23  dotnet run 500000 CarLoan
+   24  dotnet run 500000 EducationLoan
+   25  dotnet run 500000 HomeLoan
+   26  dotnet run 500000 PersonalLoan
+   27  dotnet run 500000 CarLoan
+   28  clear
+   29  cd ..
+   30  ls
+   31  cd ..
+   32  ls
+   33  history >cmd18-04-25morning.txt 

@@ -1,0 +1,29 @@
+    1  cd ..
+    2  ls
+    3  cd DemoApp1/
+    4  code .
+    5  dotnet run customers 0
+    6  dotnet run customers 25000
+    7  dotnet run customers 50000
+    8  dotnet run customers 75000
+    9  dotnet run customers 100000
+   10  dotnet run customers 200000
+   11  cd ..
+   12  dotnet new console -n DemoApp -o DemoApp2
+   13  cd DemoApp2
+   14  wget iitdac.met.edu/shared/dotnet/suppliers.xml
+   15  code .
+   16  dotnet run
+   17  dotnet run cpu
+   18  dotnet run motherboard
+   19  dotnet run mouse
+   20  dotnet run joystick
+   21  cd ../..
+   22  cd ..
+   23  ls
+   24  mkdir Runtime
+   25  cd Runtime/
+   26  mkdir ReflectionTest
+   27  cd ReflectionTest/
+   28  pwd
+   29  history > ../../../../cmd17-04-25evening.txt
