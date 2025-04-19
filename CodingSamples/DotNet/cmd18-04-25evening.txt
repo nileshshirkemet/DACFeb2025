@@ -1,0 +1,33 @@
+    1  cd Fundamentals/Runtime/ReflectionTest/
+    2  ls
+    3  cd DemoApp1/
+    4  dotnet run 500000 EducationLoan Common
+    5  dotnet run 500000 EducationLoan Scholar
+    6  dotnet run 500000 PersonalLoan Scholar
+    7  dotnet run 500000 PersonalLoan Common
+    8  dotnet run 500000 PersonalLoan Employee
+    9  dotnet run 500000 HomeLoan Common
+   10  dotnet run 500000 HomeLoan Woman
+   11  dotnet run 500000 HomeLoan Welfare
+   12  cd ../BankFinLib/
+   13  code .
+   14  dotnet build
+   15  dotnet ildam bin/Debug/net9.0/BankFinLib.dll 
+   16  dotnet ildasm bin/Debug/net9.0/BankFinLib.dll 
+   17  dotnet pack
+   18  ls bin/Release/
+   19  cd ..
+   20  ls
+   21  cp -r DemoApp1/ DemoApp2
+   22  cd DemoApp2/
+   23  dotnet add package Met.Bank.Finance -s ../BankFinLib/bin/Release/
+   24  code .
+   25  dotnet run 500000 EducationLoan Common
+   26  dotnet run 500000 EducationLoan Scholar
+   27  dotnet run 500000 PersonalLoan Common
+   28  dotnet run 500000 PersonalLoan Employee
+   29  dotnet run 500000 EducationLoan Common
+   30  dotnet run 500000 PersonalLoan Employee
+   31  dotnet run 500000 EducationLoan Common
+   32  dotnet run 500000 PersonalLoan Common
+   33  history > ../../../../cmd18-04-25evening.txt

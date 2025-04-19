@@ -1,0 +1,32 @@
+    1  cd Course/DotNet/Fundamentals/Runtime/PInvokeTest/
+    2  cd DemoApp1/
+    3  code .
+    4  dotnet run prime 20
+    5  dotnet run prime 200
+    6  dotnet run prime 13
+    7  dotnet run prime 200 5
+    8  dotnet run prime 10 20
+    9  dotnet run prime 100 5
+   10  cd ..
+   11  dotnet new console -n DemoApp -o DemoApp1 --use-program-main
+   12  dotnet new console -n DemoApp -o DemoApp2 --use-program-main
+   13  ls
+   14  ls DemoApp1
+   15  cat DemoApp1/Program.cs 
+   16  cd DemoApp2/
+   17  wget -q -O- iitdac.met.edu/shared/native/asset.tar.gz |tar x
+   18  wget -q -O- iitdac.met.edu/shared/native/x64/asset.tar.gz |tar x
+   19  code .
+   20  dotnet run native/libddb.so 
+   21  dotnet run native/libsyd.so 
+   22  cd ..
+   23  history > ../../../../cmd19-04-25evening.txt
+   24  ls
+   25  cd Runtime
+   26  ls
+   27  history > ../../../../cmd19-04-25evening.txt
+   28  cd ..
+   29  ls
+   30  cd ..
+   31  ls
+   32  history > cmd19-04-25evening.txt 

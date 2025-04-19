@@ -1,0 +1,14 @@
+    1  cd Course/DotNet/Fundamentals/Runtime/
+    2  ls
+    3  mkdir PInvokeTest
+    4  cd PInvokeTest/
+    5  dotnet new console -n DemoApp -o DemoApp1 --use-program-main
+    6  cd DemoApp1/
+    7  code .
+    8  ls ~/Course/Foundations/Basics/
+    9  objdump -t ~/Course/Foundations/Basics/dijkstra.so
+   10  dotnet build
+   11  cp ~/Course/Foundations/Basics/dijkstra.so bin/Debug/net9.0/
+   12  dotnet run gcd 24 36
+   13  wget -O- iitdac.met.edu/shared/native/x64/primes.tar.gz | tar x
+   14  history > ../../../../cmd19-04-25morning.txt 
