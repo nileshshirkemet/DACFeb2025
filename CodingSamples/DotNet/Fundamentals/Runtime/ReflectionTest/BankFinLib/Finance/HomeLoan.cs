@@ -2,6 +2,7 @@ namespace Finance;
 
 public class HomeLoan
 {
+	[MaxDuration(Limit = 12)]
 	public float Common(decimal amount, int period) => amount < 5000000 ? 9 : 8.5f;
 
 	public float Woman(decimal amount, int period) => Common(amount, period) - 1;
