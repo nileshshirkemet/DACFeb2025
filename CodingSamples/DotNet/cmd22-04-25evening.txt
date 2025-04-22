@@ -1,0 +1,35 @@
+    1  exit
+    2  exit
+    3  cd Course/DotNet/Fundamentals/Runtime/
+    4  ls
+    5  mkdir PInvokeTest
+    6  cd PInvokeTest/
+    7  dotnet new console -n DemoApp -o DemoApp1 --use-program-main
+    8  cd DemoApp1/
+    9  code .
+   10  ls ~/Course/Foundations/Basics/
+   11  objdump -t ~/Course/Foundations/Basics/dijkstra.so
+   12  dotnet build
+   13  cp ~/Course/Foundations/Basics/dijkstra.so bin/Debug/net9.0/
+   14  dotnet run gcd 24 36
+   15  wget -O- iitdac.met.edu/shared/native/x64/primes.tar.gz | tar x
+   16  history > ../../../../cmd19-04-25morning.txt 
+   17  cd ../../../../
+   18  ls
+   19  cd ..
+   20  cp -r DotNet /mnt/d/DAC0225/
+   21  exit
+   22  nc
+   23  exit
+   24  netspat -pnlt
+   25  netstat -pnlt
+   26  nc localhost 4002
+   27  cd Course/DotNet/Advanced/Networking/TcpServerTest/DemoApp1/
+   28  dotnet run
+   29  cd ..
+   30  nc localhost 4000
+   31  netstat -pnlt
+   32  nc localhost 4000
+   33  cd ..
+   34  ls
+   35  history >cmd22-04-25evening.txt 
