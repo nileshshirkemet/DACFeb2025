@@ -1,0 +1,5 @@
+    1  pwd
+    2  code .
+    3  dotnet run 15
+    4  dotnet run 25
+    5  history > ../../../../cmd22-04-25morning.txt 
