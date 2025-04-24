@@ -1,0 +1,35 @@
+    1  cd ..
+    2  dotnet new console -n DemoApp -o DemoApp2
+    3  cd DemoApp2
+    4  ls
+    5  ssh dacfaculty@iitdac.met.edu
+    6  dotnet add package Microsoft.Data.SqlClient
+    7  wget iitdac.met.edu/shared/dotnet/dbprov.txt
+    8  code .
+    9  mv dbprov.txt ..
+   10  dotnet run
+   11  dotnet run CU204 203 6
+   12  dotnet run CU201 205 15
+   13  dotnet run CU205 201 7
+   14  dotnet run CU202 201 7
+   15  cd ..
+   16  ls
+   17  mv dbprov.txt ..
+   18  cd ..
+   19  ls
+   20  mkdir StoredProcTest
+   21  cd StoredProcTest/
+   22  dotnet new console -n DemoApp
+   23  cd DemoApp/
+   24  wget iitdac.met.edu/shared/data/shopms.sql
+   25  code .
+   26  dotnet add package Microsoft.Data.SqlClient
+   27  dotnet run CU103 103 13
+   28  dotnet run CU203 103 13
+   29  dotnet run CU203 203 23
+   30  ping Dac-Faculty
+   31  ping Dac-Faculty.local
+   32  ping local.Dac-Faculty
+   33  ping Dac-Faculty.local
+   34  ping local.Dac-Faculty
+   35  history > ../../../../cmd24-04-25morning.txt 

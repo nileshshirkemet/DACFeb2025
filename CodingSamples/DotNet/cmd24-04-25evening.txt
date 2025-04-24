@@ -1,0 +1,27 @@
+    1  cd ../..
+    2  cd ..
+    3  mkdir EFCore
+    4  cd EFCore/
+    5  mkdir EntityTest
+    6  cd EntityTest/
+    7  dotnet new console -n DemoApp
+    8  cd DemoApp/
+    9  ls
+   10  dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+   11  code .
+   12  ls
+   13  dotnet run
+   14  ls
+   15  slite3 site.db 
+   16  sqlite3 site.db 
+   17  dotnet run Jack
+   18  dotnet run Jill
+   19  dotnet run Jack
+   20  dotnet run
+   21  time
+   22  sqlite3 site.db 
+   23  dotnet run Jim
+   24  sqlite3 site.db 
+   25  dotnet run
+   26  cd ..
+   27  history >cmd24-04-25evening.txt 
