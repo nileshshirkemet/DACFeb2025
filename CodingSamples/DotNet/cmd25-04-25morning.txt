@@ -1,0 +1,19 @@
+    1  ls
+    2  mkdir MappingConfigTest
+    3  cd MappingConfigTest/
+    4  dotnet new console -n DemoApp -o DemoApp1
+    5  cd DemoApp1/1
+    6  cd DemoApp1
+    7  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+    8  code .
+    9  dotnet run
+   10  dotnet run CU202
+   11  dotnet run
+   12  dotnet run CU204
+   13  dotnet run CU205
+   14  dotnet run CU203
+   15  cd ..
+   16  dotnet new classlib -n Sales
+   17  cd Sales/
+   18  code .
+   19  history > ../../../../cmd25-04-25morning.txt 
