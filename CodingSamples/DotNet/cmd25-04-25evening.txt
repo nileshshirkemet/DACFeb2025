@@ -1,0 +1,24 @@
+    1  ping iitdac.met.edu
+    2  cd Course/DotNet/Advanced/EFCore/
+    3  ls
+    4  cd MappingConfigTest/
+    5  LS
+    6  ls
+    7  dotnet new console -n DemoApp -o DemoApp2
+    8  cd DemoApp2/
+    9  dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+   10  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+   11  cp ../../../ADO.NET/ExecSqlTest/DemoApp1/shop.db .
+   12  dotnet add reference ../Sales/
+   13  code .
+   14  ls
+   15  dotnet build
+   16  dotnet run local
+   17  dotnet run central
+   18  dotnet run local 102
+   19  dotnet run central 202
+   20  dotnet run local 102
+   21  cd ..
+   22  ls
+   23  cd ..
+   24  history >cmd25-04-25evening.txt 
