@@ -1,0 +1,16 @@
+    1  cd Advanced/AspNetCore/
+    2  ls
+    3  cd EndpointTest/
+    4  cp -r DemoApp1/ DemoApp2
+    5  cd DemoApp2/
+    6  code .
+    7  dotnet run
+    8  cd ..
+    9  mkdir MiddlewareTest
+   10  cd MiddlewareTest/
+   11  dotnet new web -n DemoApp
+   12  cd DemoApp/
+   13  code .
+   14  dotnet run
+   15  cd ..
+   16  history >cmd26-04-25evening.txt 
