@@ -1,0 +1,16 @@
+    1  cd Course/DotNet/Advanced/
+    2  ls
+    3  mkdir AspNetCore
+    4  cd AspNetCore/
+    5  mkdir EndpointTest
+    6  cd EndpointTest/
+    7  dotnet new console -n DemoApp -o DemoApp1
+    8  cd DemoApp1/
+    9  code .
+   10  dotnet run
+   11  dotnet run --Urls http://localhost:5001
+   12  dotnet run --Urls http://[::]:5001
+   13  dotnet run
+   14  dotnet watch
+   15  cd ..
+   16  history >cmd26-04-25morning.txt 
