@@ -1,0 +1,18 @@
+    1  cd Advanced/
+    2  ls
+    3  mkdir AspNetCoreMvc
+    4  cd AspNetCoreMvc/
+    5  mkdir ControllerTest
+    6  cd ControllerTest/
+    7  dotnet new web -n DemoApp -o DemoApp1
+    8  cd DemoApp1/
+    9  code .
+   10  dotnet run
+   11  cp -r ../../../AspNetCore/EndpointTest/DemoApp2/Services/ .
+   12  dotnet run
+   13  dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+   14  cp -r ../../../EFCore/EntityTest/DemoApp/Tourism/ .
+   15  cp -r ../../../EFCore/EntityTest/DemoApp/site.db .
+   16  dotnet run
+   17  cd ..
+   18  history >cmd27-04-25morning.txt 
