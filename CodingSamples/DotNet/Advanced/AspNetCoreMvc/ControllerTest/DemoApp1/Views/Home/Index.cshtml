@@ -1,0 +1,29 @@
+@model IEnumerable<DemoApp.Tourism.Models.Visitor>
+<html>
+    <head>
+        <title>DemoApp</title>
+    </head>
+    <body>
+        <h1>Our Visitors</h1>
+        <table border="1">
+            <tr>
+                <th>Visitor Name</th>
+                <th>Visit Count</th>
+                <th>Last Visit</th>
+                <th>Star Rating</th>
+            </tr>
+            @foreach(var entry in Model)
+            {
+                <tr>
+                    <td>@entry.Name</td>
+                    <td>@entry.Visits</td>
+                    <td>@entry.Recent</td>
+                    <td>@entry.Stars</td>
+                </tr>
+            }
+        </table>
+        <p>
+            <a href="/Home/Register">Register Your Visit</a>
+        </p>
+    </body>
+</html>
