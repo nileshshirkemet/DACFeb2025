@@ -1,0 +1,22 @@
+    1  cd Advanced/AspNetCoreMvc/
+    2  ls
+    3  cd ControllerTest/
+    4  ls
+    5  dotnet new web -n DemoApp -o DemoApp2
+    6  cd DemoApp2
+    7  dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+    8  cp -r ../DemoApp1/Tourism/ .
+    9  cp -r ../DemoApp1/site.db .
+   10  code .
+   11  dotnet run
+   12  mv site.db site.db.bak
+   13  dotnet run
+   14  ls
+   15  mv site.db.bak site.db
+   16  ls
+   17  wget -q -P wwwroot/ iitdac.met.edu/shared/web/alpine.js
+   18  dotnet run
+   19  cp ../DemoApp1/site.db .
+   20  dotnet run
+   21  cd ..
+   22  history >cmd28-04-25morning.txt 
