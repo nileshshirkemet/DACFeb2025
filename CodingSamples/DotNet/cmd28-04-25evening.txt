@@ -1,0 +1,13 @@
+    1  cd Course/DotNet/Advanced/AspNetCoreMvc/
+    2  ls
+    3  mkdir RazorPagesTest
+    4  cd RazorPagesTest/
+    5  dotnet new web -n DemoApp -o DemoApp1
+    6  cd DemoApp1/
+    7  cp -r ../../../AspNetCore/EndpointTest/DemoApp2/Services/ .
+    8  code .
+    9  dotnet run
+   10  cd ..
+   11  ls
+   12  cd ..
+   13  history >cmd28-04-25evening.txt 
