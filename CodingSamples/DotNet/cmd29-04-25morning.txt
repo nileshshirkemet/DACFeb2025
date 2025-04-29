@@ -1,0 +1,13 @@
+    1  cd Advanced/AspNetCoreMvc/RazorPagesTest/
+    2  ls
+    3  dotnet new web -n DemoApp -o DemoApp2
+    4  cd DemoApp2
+    5  dotnet add Microsoft.EntityFrameworkCore.SqlServer
+    6  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+    7  code .
+    8  dotnet run
+    9  cd ..
+   10  cd  ..
+   11  cd ..
+   12  ls
+   13  history >cmd29-04-25morning.txt 
