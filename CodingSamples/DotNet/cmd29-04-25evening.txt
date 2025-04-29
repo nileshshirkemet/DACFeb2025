@@ -1,0 +1,19 @@
+    1  cd Advanced/
+    2  ls
+    3  mkdir Microservices
+    4  cd Microservices/
+    5  mkdir GRPCTest
+    6  cd GRPCTest/
+    7  dotnet new classlib -n Sales -o ContractLib\
+    8  dotnet new classlib -n Sales -o ContractLib
+    9  cd ContractLib/
+   10  ls
+   11  dotnet add package Grpc
+   12  dotnet add package Grpc.Tools
+   13  dotnet add package Google.Protobuf
+   14  code .
+   15  dotnet build
+   16  code .
+   17  cd  ..
+   18  cd ..
+   19  history >cmd29-04-25evening.txt 
