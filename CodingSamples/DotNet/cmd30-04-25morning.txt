@@ -1,0 +1,33 @@
+    1  cd Advanced/Microservices/GRPCTest/
+    2  ls
+    3  notepad.exe ContractLib/order_manager.proto 
+    4  dotnet new web -n ServerApp
+    5  cd ServerApp/
+    6  dotnet add reference ../ContractLib/
+    7  dotnet add package Grpc.AspNetCore.Server
+    8  dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+    9  code .
+   10  dotnet run
+   11  ./bin/Debug/net9.0/ServerApp 
+   12  dotnet build
+   13  netstat -pnlt
+   14  cd ..
+   15  mkdir DemoApp
+   16  cd DemoApp/
+   17  wget -q iitdac.met.edu/shared/dotnet/Program.py
+   18  ls
+   19  vi Program.py 
+   20  cp ../ContractLib/order_manager.proto .
+   21  vi Program.py 
+   22  ls
+   23  python -m grpc_tools.protoc --python_out=. --grpc_python_out=. order_manager.proto -I .
+   24  python3 -m grpc_tools.protoc --python_out=. --grpc_python_out=. order_manager.proto -I .
+   25  ls
+   26  python3 Program.py CU201
+   27  python3 Program.py CU204
+   28  python3 Program.py CU203
+   29  python3 Program.py CU203 201 12
+   30  python3 Program.py CU203
+   31  python3 Program.py CU203 208 12
+   32  vi Program.py 
+   33  history > ../../../../cmd30-04-25morning.txt 
