@@ -1,0 +1,36 @@
+    1  java --version 
+    2  cd Fundamentals/
+    3  ls
+    4  mkdir Basics
+    5  cd Basics/
+    6  vi Hello.java
+    7  ls
+    8  javac Hello.java 
+    9  ls
+   10  java Greeter 
+   11  ls
+   12  vi Greeter.class
+   13  uname -m
+   14  scp Greeter.class unipro@linuxarm.km-hussain.xyz:Testing
+   15  ssh unipro@linuxarm.km-hussain.xyz
+   16  vi Hello.java
+   17  mkdir PrimitiveTypesTest
+   18  cd PrimitiveTypesTest/
+   19  mkdir demo
+   20  cd demo/
+   21  touch Program.java
+   22  ls
+   23  code .
+   24  ls
+   25  javac -d classes *.java
+   26  cd classes/
+   27  ls
+   28  java Program 200000 5
+   29  cd ..
+   30  ls
+   31  java Program
+   32  java classes/Program
+   33  cd classes/
+   34  java Program 25000 12
+   35  cd ..
+   36  history >cmd02-05-25morning.txt

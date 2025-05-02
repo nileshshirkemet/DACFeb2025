@@ -1,0 +1,57 @@
+    1  cd Fundamentals/Basics/
+    2  ls
+    3  mkdir ClassTypeTest
+    4  cd ClassTypeTest/
+    5  mkdir demo1
+    6  cd demo1/
+    7  touch Program.java
+    8  code .
+    9  javac -d classes *.java
+   10  cd classes/
+   11  ls
+   12  java Program 200000 5
+   13  javac -d . ../*.java
+   14  java Program 25000 8
+   15  java Program 200000 5
+   16  cd ../..
+   17  ls
+   18  cp -r demo1 demo2
+   19  cd demo2/
+   20  code .
+   21  javac -d classes/ *.java
+   22  cd classes/
+   23  java Program 200000 5
+   24  javac -d . ../*.java
+   25  java Program 200000 5
+   26  java Program 15000 5
+   27  java Program 150000 4
+   28  javap -p RiskLevel.class 
+   29  cd ../..
+   30  cd ..
+   31  mkdir Inheritance
+   32  cd Inheritance/
+   33  mkdir SubclassTypeTest
+   34  cd SubclassTypeTest/
+   35  mkdir demo1
+   36  cd demo1/
+   37  touch Program.java
+   38  code .
+   39  javac -d classes Program.java payroll/*.java
+   40  ls classes/
+   41  ls classes/payroll/
+   42  java Program
+   43  java -Djava.class.path=classes Program
+   44  java -cp classes Program
+   45  java Program
+   46  mv classes/Program.class .
+   47  java -cp classes Program
+   48  java -cp classes:. Program
+   49  mv Program.class classes/
+   50  java -cp classes:. Program
+   51  java -cp classes Program
+   52  javac -d classes Program.java payroll/*.java
+   53  java -cp classes Program
+   54  javac -d classes Program.java payroll/*.java
+   55  java -cp classes Program
+   56  cd ..
+   57  history >cmd02-05-25evening.txt 
