@@ -1,0 +1,22 @@
+    1  pwd
+    2  cd Course/Java/Fundamentals/Inheritance/
+    3  ls
+    4  cd SubclassTypeTest/
+    5  ls
+    6  mkdir demo2
+    7  cd demo2/
+    8  touch Program.java
+    9  code .
+   10  javac -d classes *.java
+   11  cd classes/
+   12  java Program 
+   13  javac -d . ../*.java
+   14  java Program 
+   15  java ../Program.java
+   16  javac -d . ../*.java
+   17  javap -c Program.class 
+   18  cd ..
+   19  mkdir InterfaceTypeTest
+   20  cd InterfaceTypeTest/
+   21  pwd
+   23  history > ../../../cmd03-05-25morning.txt 

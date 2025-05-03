@@ -1,0 +1,37 @@
+    1  mkdir bank
+    2  cd bank/
+    3  code .
+    4  javac -d classes banking/*.java
+    5  jar -c -f met-bank-1.0.0.jar -C classes/ banking
+    6  ls
+    7  jar -t -f met-bank-1.0.0.jar 
+    8  cd ..
+    9  mkdir demo1
+   10  mkdir lib
+   11  rmdir lib
+   12  cd demo1/
+   13  mkdir lib
+   14  cp ../bank/met-bank-1.0.0.jar lib/
+   15  code .
+   16  javac -d classes Program.java 
+   17  javac -cp lib/met-bank-1.0.0.jar -d classes Program.java 
+   18  java -cp classes/:lib/met-bank-1.0.0.jar Program
+   19  vi run
+   20  bash run
+   21  vi run
+   22  bash run
+   23  cd ../bank/
+   24  code .
+   25  javac -d classes banking/*.java
+   26  jar -c -f met-bank-1.0.0.jar -C classes/ banking
+   27  cd ../demo1/
+   28  cp ../bank/met-bank-1.0.0.jar lib/
+   29  code .\
+   30  code .
+   31  bash run
+   32  bash run 2000
+   33  bash run 8000
+   34  bash run 4OOO
+   35  cd ..
+   36  ls
+   37  history >cmd03-05-25evening.txt 
