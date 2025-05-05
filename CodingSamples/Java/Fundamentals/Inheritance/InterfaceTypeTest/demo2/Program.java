@@ -1,0 +1,52 @@
+import taxation.Supervisor;
+import taxation.TaxPayer;
+import taxation.Worker;
+
+class Program {
+
+    //nested inner member class is defined within another
+    //class with a static modifier, such a class can only
+    //refer to static members of its outer class
+    static class Auditor implements AutoCloseable {
+        
+        public Auditor() {
+            System.out.println("Auditor - acquiring requred resources...");
+        }
+
+        public void audit(String id, TaxPayer person) {
+            if(id.length() < 4)
+                throw new IllegalArgumentException("Invalid ID");
+            double payment = person.incomeTax() + 150;
+            System.out.printf("Total Tax Payment: %.2f%n", payment);
+        }
+
+        public void close() {
+            System.out.println("Auditor - releasing acquired resources...");
+        }
+    }
+
+    private static void doAuditing(String name, int count) {
+        System.out.printf("Auditing %s...%n", name);
+        //using try-with-resources syntax to initialize
+        //an AutoCloseable object, the close() method
+        //of this object will be automatically called
+        //in a finally block at the end of this try 
+        //statement block
+        try(var a = new Auditor()){
+            if(count < 10)
+                a.audit(name, new Supervisor(count));
+            else
+                a.audit(name, new Worker(count));
+        }
+    }
+
+    public static void main(String[] args) {
+        try{
+            String m = args[0].toUpperCase();
+            int n = Integer.parseInt(args[1]);
+            doAuditing(m, n);
+        }catch(Exception e){
+            System.out.printf("Error: %s%n", e.getMessage());
+        }
+    }
+}

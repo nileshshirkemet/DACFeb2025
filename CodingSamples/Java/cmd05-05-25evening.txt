@@ -1,0 +1,44 @@
+    1  cd Course/Java/Fundamentals/Inheritance/InterfaceTypeTest/
+    2  ls
+    3  mkdir demo2
+    4  cd demo1
+    5  cd ../demo2/
+    6  cp ../demo1/run .
+    7  code .
+    8  ./run 
+    9  ls classes/
+   10  ./run Jack 120
+   11  javac -d classes/ taxation/*.java
+   12  vi run 
+   13  ./run Jack 120
+   14  vi run 
+   15  ./run Jack 120
+   16  ./run John 8
+   17  ./run Jim 25
+   18  ./run Jack 120
+   19  ./run Jim 25
+   20  ./run John 8
+   21  ./run Jim 25
+   22  cd ../..
+   23  cd ..
+   24  mkdir Generics
+   25  cd Generics/
+   26  mkdir TypeParamTest
+   27  cd TypeParamTest/
+   28  mkdir demo1
+   29  cd demo1/
+   30  code .
+   31  cp ../../../Inheritance/InterfaceTypeTest/demo2/run .
+   32  vi run 
+   33  ./run 87
+   34  ./run 98
+   35  ./run 87
+   36  ./run 98
+   37  ./run 87
+   38  ./run 98
+   39  ls
+   40  cd ..
+   41  ls
+   42  cd ..
+   43  ls
+   44  history >cmd05-05-25evening.txt 

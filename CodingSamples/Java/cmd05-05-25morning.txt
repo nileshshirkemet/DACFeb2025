@@ -1,0 +1,25 @@
+  1  pwd
+  2  cd ..
+  3  mkdir demo
+  4  cd demo/
+  5  touch Program.java
+  6  code .
+  7  javac -d classes Program.java 
+  8  cd classes/
+  9  java Program 
+  10  javac -d . ../Program.java 
+  11  java Program 
+  12  exit
+  13  exit
+  14  ping google.com
+  15  ls
+  16  rm nginx.tar.gz 
+  17  rm iltools.tar.gz*
+  18  wget iitdac.met.edu/java/jdk.tar.gz
+  19  wget iitdac.met.edu/shared/java/jdk.tar.gz
+  20  tar xvf jdk.tar.gz 
+  21  wget iitdac.met.edu/shared/java/maven.tar.gz
+  22  tar xvf maven.tar.gz 
+  23  ls apache-maven-3.9.5/
+  24  ls apache-maven-3.9.5/templates/
+  25  history > cmd05-05-25morning.txt 
