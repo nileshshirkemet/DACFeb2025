@@ -1,0 +1,47 @@
+    1  cd Fundamentals/Generics/IterableTest/
+    2  ls
+    3  mkdir demo2
+    4  cd demo2
+    5  cp ../../TypeParamTest/demo1/Interval.java .
+    6  cp ../../TypeParamTest/demo1/run .
+    7  vi run 
+    8  code .
+    9  ./run 
+   10  vi ./run 
+   11  ./run 
+   12  ./run wednesday
+   13  ./run friday
+   14  ./run sunday
+   15  ./run friday
+   16  ./run sunday
+   17  cd ../..
+   18  cd ..
+   19  mkdir Functional
+   20  cd Functional/
+   21  mkdir MethodReferenceTest
+   22  cd MethodReferenceTest/
+   23  mkdir demo1
+   24  cd demo1/
+   25  vi ../../../Generics/IterableTest/demo1/run .
+   26  cp ../../../Generics/IterableTest/demo1/run .
+   27  code .
+   28  javap java.lang.Runnable
+   29  javap java.lang.Iterable
+   30  javap java.util.Iterator
+   31  javap java.io.Serializable
+   32  ./run 200000 5
+   33  ./run 50000 12
+   34  ls classes/
+   35  ./run 50000 12
+   36  ls classes/
+   37  ls classes/*
+   38  rm classes/*
+   39  ./run 50000 12
+   40  ls classes/
+   41  ./run 50000 12
+   42  ls classes/
+   43  javap -p classes/Program.class 
+   44  cd ..
+   45  ls
+   46  cd ..
+   47  history >cmd06-05-25evening.txt 
