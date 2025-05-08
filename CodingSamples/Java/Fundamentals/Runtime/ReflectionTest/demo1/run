@@ -1,0 +1,3 @@
+mvn -q compile dependency:copy-dependencies
+java -cp target/classes/:target/dependency/* app.Program $*
+
