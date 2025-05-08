@@ -1,0 +1,30 @@
+    1  javap java.laon.Object
+    2  javap java.lang.Object
+    3  cd Java/Fundamentals/Runtime/
+    4  ls
+    5  mkdir ForeignFunctionTest
+    6  cd ForeignFunctionTest/
+    7  mkdir demo1
+    8  cd demo1/
+    9  wget -qO- iitdac.met.edu/shared/native/x64/asset.tar.gz | tar x
+   10  ls
+   11  ls native/
+   12  code .
+   13  javac -d classes *.java
+   14  java -cp classes/ Program
+   15  ls
+   16  javac -d classes *.java
+   17  java -cp classes/ Program ddb
+   18  java -cp classes/ -Djava.library.path=native Program ddb
+   19  java -cp classes/ -Djava.library.path=native --enable-native-access=ALL-UNNAMED Program ddb
+   20  java -cp classes/ -Djava.library.path=native --enable-native-access=ALL-UNNAMED Program syd
+   21  javap java.lang.Optional
+   22  javap java.util.Optional
+   23  javac -d classes *.java
+   24  java -cp classes/ -Djava.library.path=native --enable-native-access=ALL-UNNAMED Program syd
+   25  javap java.lang.foreign.ValueLayout
+   26  ls
+   27  cd ..
+   28  ls
+   29  history cmd08-05-25evening.txt 
+   30  history >cmd08-05-25evening.txt 
