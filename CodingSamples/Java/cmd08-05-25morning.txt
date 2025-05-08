@@ -1,0 +1,44 @@
+    1  cd Course/Java/Fundamentals/Runtime/ReflectionTest/
+    2  ls
+    3  cd bankfin
+    4  code .
+    5  mvn clean compile
+    6  mvn install
+    7  cd ..
+    8  cd demo1/
+    9  code .
+   10  ls
+   11  mvn compile dependency:copy-dependencies
+   12  java -cp target/classes/:target/dependency/* app.Program 500000 EducationLoan
+   13  vi run
+   14  bash run 500000 HomeLoan
+   15  bash run 500000 PersonalLoan
+   16  bash run 500000 CarLoan
+   17  bash run 500000 PersonalLoan
+   18  bash run 500000 finance.PersonalLoan
+   19  bash run 500000 finance.PersonalLoan common
+   20  bash run 500000 PersonalLoan common
+   21  bash run 500000 PersonalLoan employee
+   22  bash run 500000 HomeLoan common
+   23  bash run 500000 HomeLoan woman
+   24  bash run 500000 HomeLoan welfare
+   25  bash run 500000 CarLoan welfare
+   26  bash run 500000 PersonalLoan welfare
+   27  cd ../bankfin/
+   28  code .
+   29  mvn clean install
+   30  ls ~/.m2/repository/course/java/fundamentals/bankfin/
+   31  ls ~/.m2/repository/course/java/fundamentals/bankfin/1.0.0/
+   32  ls ~/.m2/repository/course/java/fundamentals/bankfin/2.0.0/
+   33  cd ..
+   34  cp -r demo1/ demo2
+   35  cd demo2/
+   36* 
+   37  bash run 500000 EducationLoan scholar
+   38  bash run 500000 EducationLoan common
+   39  bash run 500000 EducationLoan scholar
+   40  bash run 500000 HomeLoan common
+   41  bash run 500000 HomeLoan welfare
+   42  bash run 500000 PersonalLoan common
+   43  pwd
+   44  history > ../../../../cmd08-05-25morning.txt

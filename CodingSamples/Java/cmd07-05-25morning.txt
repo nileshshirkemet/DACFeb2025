@@ -1,0 +1,64 @@
+    1  cd Course/Java/Fundamentals/Functional/
+    2  javap java.util.stream.Stream
+    3  ls
+    4  mkdir StreamTest
+    5  cd StreamTest/
+    6  mkdir demo
+    7  cd demo/
+    8  code .
+    9  cp ../../MethodReferenceTest/demo1/run .
+   10  ./run 
+   11  ls classes/
+   12  javap "classes/Shop$Item.class" 
+   13  javap "classes/Shop\$Item.class" 
+   14  rm -r classes/
+   15  ./run 
+   16  rm -r classes/
+   17  ./run 
+   18  ls classes/
+   19  javap -p classes/Item.class 
+   20  ./run items intel
+   21  ./run items samsung
+   22  ./run items microsoft
+   23  ./run items apple
+   24  ./run customers 0
+   25  ./run customers 25000
+   26  ./run customers 50000
+   27  ./run customers 700000
+   28  ./run customers 70000
+   29  ./run customers 100000
+   30  ./run customers 0
+   31  ./run customers 50000
+   32  ./run customers 80000
+   33  cd ..
+   34  cd ../MethodReferenceTest/
+   35  ls
+   36  mv demo1/ demo
+   37  cd ..
+   38  ls
+   39  mkdir Runtime
+   40  cd Runtime/
+   41  mkdir bankfin
+   42  cd bankfin/
+   43  mkdir -p src/main/java
+   44  wget -qO- iitdac.met.edu/shared/java/finance.tar.gz | tar xf -C src/main/java/
+   45  wget -qO- iitdac.met.edu/shared/java/finance.tar.gz | tar x -C src/main/java/
+   46  ls
+   47  ls src/main/java/finance/
+   48  vi pom.xml
+   49  mvn compile
+   50* 
+   51  mvn install
+   52  ls ~/.m2/repository/course/java/fundamentals/bankfin/
+   53  ls ~/.m2/repository/course/java/fundamentals/bankfin/1.0.0/
+   54  cd ..
+   55  mkdir demo1
+   56  cd demo1/
+   57  mkdir -p src/main/java
+   58  cp ../bankfin/pom.xml .
+   59  vi pom.xml 
+   60  code .
+   61  mvn compile
+   62  mvn -q compile
+   63  java -cp target/classes/ app.Program 
+   64  history > ../../../../cmd07-05-25morning.txt
