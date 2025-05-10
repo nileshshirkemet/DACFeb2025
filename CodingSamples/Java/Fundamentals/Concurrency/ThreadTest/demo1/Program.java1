@@ -1,0 +1,21 @@
+class Program {
+
+    private static String manager;
+
+    private static void handleJob(int jobid) {
+        System.out.printf("Thread<%x> has accepted job<%d> for %s%n", Thread.currentThread().hashCode(), jobid, manager);
+        Activity.perform(jobid);
+        System.out.printf("Thread<%x> has finished job<%d> for %s%n", Thread.currentThread().hashCode(), jobid, manager);
+    }
+
+    public static void main(String[] args) throws Throwable {
+        int n = args.length > 0 ? Integer.parseInt(args[0]) : 1;
+        Thread child = new Thread(() -> {
+            manager = "Jack";
+            handleJob(n);
+        });
+        child.start();
+        manager = "Jill";
+        handleJob(2);
+    }
+}
