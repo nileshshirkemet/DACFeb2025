@@ -1,0 +1,20 @@
+    1  cd ThreadTest/demo2/
+    2  code .
+    3  javap java.lang.Object
+    4  bash run
+    5  cd ..
+    6  mkdir AsyncParallelTest
+    7  cd AsyncParallelTest/
+    8  mkdir demo
+    9  cd demo/
+   10  code .
+   11  cp ../../ThreadTest/demo1/run .
+   12  bash run 10
+   13  bash run 20
+   14  bash run 30
+   15  bash run 10
+   16  bash run 20
+   17  bash run 30
+   18  bash run 20
+   19  bash run 30
+   20  history > ../../../../cmd10-05-25morning.txt 

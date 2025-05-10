@@ -1,0 +1,32 @@
+    1  mkdir Advanced
+    2  cd Advanced/
+    3  wget -qO- iitdac.met.edu/shared/java/maven-projects.tar.gz | tar x
+    4  ls
+    5  mkdir Networking
+    6  cd Networking/
+    7  mkdir TCPServerTest
+    8  cd TCPServerTest/
+    9  cd ../..
+   10  cd ..
+   11  ls
+   12  mv Advanced/ Java
+   13  cd Java/
+   14  ls
+   15  cd Advanced/Networking/TCPServerTest/
+   16  ls
+   17  unzip -d demo ~/Course/Java/Advanced/maven-projects/simple-app.zip 
+   18  cd demo
+   19  ls
+   20  code .
+   21  wget -q iitdac.met.edu/shared/java/EviTek.store
+   22  ./run
+   23  mv EviTek.store EviTek.store0
+   24  ./run
+   25  ls
+   26  ./run
+   27  mv EviTek.store0 EviTek.store
+   28  ./run 
+   29  cd ..
+   30  ls
+   31  cd ..
+   32  history >cmd10-05-25evening.txt 
