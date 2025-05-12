@@ -1,0 +1,465 @@
+    1  exit
+    2  exit
+    3  cd Course/DotNet/Fundamentals/Runtime/
+    4  ls
+    5  mkdir PInvokeTest
+    6  cd PInvokeTest/
+    7  dotnet new console -n DemoApp -o DemoApp1 --use-program-main
+    8  cd DemoApp1/
+    9  code .
+   10  ls ~/Course/Foundations/Basics/
+   11  objdump -t ~/Course/Foundations/Basics/dijkstra.so
+   12  dotnet build
+   13  cp ~/Course/Foundations/Basics/dijkstra.so bin/Debug/net9.0/
+   14  dotnet run gcd 24 36
+   15  wget -O- iitdac.met.edu/shared/native/x64/primes.tar.gz | tar x
+   16  history > ../../../../cmd19-04-25morning.txt 
+   17  cd ../../../../
+   18  ls
+   19  cd ..
+   20  cp -r DotNet /mnt/d/DAC0225/
+   21  exit
+   22  nc
+   23  exit
+   24  nc localhost 4002
+   25  nc localhost 4000
+   26  cd Advanced/Networking/TcpServerTest/DemoApp2/
+   27  dotnet run
+   28  sqlite3
+   29  sudo apt install sqlite3
+   30  cd Exp
+   31  wget iitdac.met.edu/shared/data/shop.db
+   32  sqlite3 shop.db 
+   33  exit
+   34  ping Dac-Faculty.local
+   35  ping 192.168.1.90
+   36  ping Dac-Faculty.met.edu
+   37  cat /etc/resolv.conf 
+   38  ping 10.255.255.254
+   39  ping "$(hostname).local"
+   40  ping 127.0.1.1u
+   41  ping 127.0.0.1
+   42  mysql
+   43  sudo apt install mysql-client-core-8.0
+   44  mysql -h 127.0.1.1 -u root -prooty
+   45  mysql -h 192.168.1.90 -u root -proot
+   46  wsl.exe hostname -I
+   47  host
+   48  ifconfig
+   49  cat /etc/resolv.conf 
+   50  mysql -h 10.255.255.254 -u root -proot
+   51  ip route
+   52  mysql -h 172.22.156.203 -u root -proot
+   53  ping "$(hostname).local"
+   54  cat /etc/hosts
+   55  ping Dac-Faculty.met.edu
+   56  mysql -h 172.22.15 -u root -proot
+   57  mysql -h Dac-Faculty.met.edu -u root -proot
+   58  exit
+   59  ping Dac-Faculty.mshome.net
+   60  mysql -h Dac-Faculty.mshome.net -u root -proot
+   61  exit
+   62  exit
+   63  exit
+   64  ssh dacfaculty@iitdac.met.edu
+   65  exit
+   66  date
+   67  timedatectl set-time
+   68  timedatectl status
+   69  timedatectl set-timezone "Asia/Kolkata"
+   70  sudo timedatectl set-timezone "Asia/Kolkata"
+   71  timedatectl status
+   72  date
+   73  ping Dac-Faculty.local
+   74  date
+   75  exit
+   76  exit
+   77  exit
+   78  vi nginx/conf/nginx.conf
+   79  ./nginx/sbin/nginx 
+   80  ./nginx/sbin/nginx -s stop
+   81  wget iitdac.met.edu/shared/web/nginx.tar.gz
+   82  tar xf nginx.tar.gz 
+   83  vi nginx/conf/nginx.conf
+   84  ./nginx/sbin/nginx 
+   85  ./nginx/sbin/nginx stop
+   86  ./nginx/sbin/nginx -stop
+   87  ./nginx/sbin/nginx -s stop
+   88  cd Exp/
+   89  ls
+   90  cp -r ../Course/DotNet/Advanced/AspNetCoreMvc/ControllerTest/DemoApp2/ .
+   91  cd DemoApp2/
+   92  cd wwwroot/
+   93  vi index.html 
+   94  cd ..
+   95  dotnet build
+   96  ./bin/Debug/net9.0/DemoApp 
+   97  exit
+   98  java --version
+   99  exit
+  100  cd Exp
+  101  vi Hello.java
+  102  javac Hello.java 
+  103  java Greeter
+  104  vi Hello.java
+  105  javac Hello.java 
+  106  java Greeter
+  107  exit
+  108  cd Course/DotNet/Advanced/Microservices/RESTTest/DemoApp/
+  109  dotnet run
+  110  cd Course/DotNet/Advanced/Microservices/GRPCTest/ServerApp/
+  111  ./bin/Debug/net9.0/ServerApp 
+  112  python3 Program.py CU204
+  113  cd ../..
+  114  mkdir RESTTest
+  115  cd RESTTest/
+  116  dotnet new web -n DemoApp
+  117  cd DemoApp/
+  118  dotnet add reference ../../GRPCTest/ContractLib/
+  119  dotnet add package Grpc.Net.ClientFactory
+  120  code .
+  121  notepad.exe ../../GRPCTest/ContractLib/order_manager.proto 
+  122  dotnet run
+  123  cd wwwroot
+  124  wget -q -O- iitdac.met.edu/shared/web/salesui.tar.gz | tar x
+  125  cd ..
+  126  dotnet run
+  127  cd wwwroot/
+  128  python3 -m http.server 5001
+  129  pwd
+  130  cd ../../../
+  131  cd .
+  132  pwd
+  133  cd ..
+  134  ls
+  135  history > cmd30-04-25evening.txt 
+  136  cd ..
+  137  cd DotNet/
+  138  vi cmd30-04-25evening.txt 
+  139  cd ..
+  140  cp -r DotNet /mnt/d/DAC0225/
+  141  cd Exp/
+  142  ls
+  143  mkdir demo
+  144  cd demo/
+  145  touch Program.java
+  146  code .
+  147  javac -d classes Program.java 
+  148  cd classes/
+  149  java Program 
+  150  javac -d . ../Program.java 
+  151  java Program 
+  152  exit
+  153  exit
+  154  ping google.com
+  155  ls
+  156  rm nginx.tar.gz 
+  157  rm iltools.tar.gz*
+  158  wget iitdac.met.edu/java/jdk.tar.gz
+  159  wget iitdac.met.edu/shared/java/jdk.tar.gz
+  160  tar xvf jdk.tar.gz 
+  161  wget iitdac.met.edu/shared/java/maven.tar.gz
+  162  tar xvf maven.tar.gz 
+  163  ls apache-maven-3.9.5/
+  164  ls apache-maven-3.9.5/templates/
+  165  rm *.tar.gz
+  166  exit
+  167  ls
+  168  cp -r ../../Java /mnt/d/DAC0225/
+  169  esxit
+  170  exit
+  171  exit
+  172  cd Course/Java/
+  173  cd ..
+  174  cp -r Java /mnt/d/DAC0225/
+  175  ls
+  176  cd Java/
+  177  ls
+  178  vi cmd05-05-25morning.txt 
+  179  ls
+  180  vi cmd05-05-25morning.txt 
+  181  exit
+  182  exit
+  183  exit
+  184  ping iitdac.met.edu
+  185  exit
+  186  ls
+  187  vi .bashrc 
+  188  exec bash
+  189  echo $PATH
+  190  java --version
+  191  exit
+  192  java --version
+  193  cd Exp/
+  194  mkdir ReflectionTest
+  195  cd ReflectionTest/
+  196  exit
+  197  ls
+  198  cd Course/
+  199  ls
+  200  cd Java/
+  201  ls
+  202  cd Fundamentals/
+  203  ls
+  204  cd Runtime/
+  205  ls
+  206  java --version
+  207  ls
+  208  ls ~
+  209  vi ~/.bashrc
+  210  cp ~/.bashrc /mnt/d
+  211  ls
+  212  ls 
+  213  cd demo1/
+  214  ls
+  215  cd ..
+  216  ls
+  217  vi cmd07-05-25morning.txt 
+  218  ls
+  219  mvn --version
+  220  exit
+  221  ls
+  222  cd Course/Java/Fundamentals/Runtime/
+  223  ls
+  224  cd bankfin/
+  225  ls
+  226  ls src
+  227  ls src/main/java/
+  228  ls src/main/java/finance/
+  229  vi src/main/java/finance/Loans.java
+  230  ls
+  231  vi pom.xml 
+  232  ls ~/.m2/repository/course/java/fundamentals/bankfin
+  233  ls ~/.m2/repository/course/java/fundamentals/bankfin/1.0..0
+  234  ls ~/.m2/repository/course/java/fundamentals/bankfin/1.0.0
+  235  exit
+  236  ssh dacfaculty@iitdac.met.edu
+  237  exit
+  238  ls'
+  239  ls
+  240  cd Nilesh/
+  241  ls
+  242  cd MavenTest/
+  243  ls
+  244  cd GeometryDemo
+  245  ls
+  246  clear
+  247  mkdir -p src/main/java/app
+  248  code .
+  249  mvn compile dependency:copy-dependencies
+  250  java -cp target/classes/:target/dependency/* app.Program
+  251  exit
+  252  ls
+  253  cd ..
+  254  ls
+  255  cd ..
+  256  ls
+  257  cd Nilesh
+  258  ls
+  259  mkdir MavenTest
+  260  clear
+  261  mkdir GeometryLib
+  262  cd GeometryLib
+  263  mkdir -p src/main/java
+  264  ls
+  265  ls ..
+  266  cd ..
+  267  ls
+  268  cd MavenTest/
+  269  ls
+  270  mkdir GeometryLib
+  271  mkdir GeometryDemo
+  272  cd GeometryLib
+  273  mkdir -p src/main/java/Geometry
+  274  code .
+  275  clear
+  276  mvn compile
+  277  clear
+  278  mvn install
+  279  exit
+  280  ls
+  281  cd Course/
+  282  cd Java/Fundamentals/
+  283  ls
+  284  cd Concurrency/
+  285  ls
+  286  mkdir ThreadTest
+  287  cd ThreadTest/
+  288  mkdir demo1
+  289  cd demo1/
+  290  code .
+  291  vi run
+  292  bash run
+  293  bash run 3
+  294  bash run 4
+  295  bash run 5
+  296  bash run 10
+  297  bash run 50
+  298  bash run 12
+  299  bash run 20
+  300  bash run 10
+  301  bash run 20
+  302  bash run 6
+  303  bash run 
+  304  bash run 10
+  305  bash run 20
+  306  bash run 50
+  307  bash run 30
+  308  bash run 20
+  309  bash run 30
+  310  bash run 24
+  311  bash run 25
+  312  cd ..
+  313  mkdir demo2
+  314  cd demo2/
+  315  cp ../demo1/Activity.java .
+  316  cp ../demo1/run .
+  317  code .
+  318  bash run
+  319  history > ../../../../cmd09-05-25evening.txt
+  320  cd Course/Java/Fundamentals/Concurrency/ThreadTest/demo1
+  321  bash run 10
+  322  bash run 6
+  323  bash run 8
+  324  vi run 
+  325  bash run 8
+  326  bash run 6
+  327  bash run 10
+  328  bash run 20
+  329  vi Activity.java 
+  330  vi run 
+  331  cp ../../ThreadTest/ ~/Exp
+  332  cp -r ../../ThreadTest/ ~/Exp
+  333  cd ~/Exp
+  334  cd ThreadTest/demo1
+  335  vi Activity.java 
+  336  bash run 20
+  337  bash run 10
+  338  bash run 8
+  339  vi Activity.java 
+  340  bash run 8
+  341  vi Activity.java 
+  342  bash run 8
+  343  bash run 6
+  344  vi Activity.java 
+  345  bash run 6
+  346  cp ~/Course/Java/Fundamentals/Concurrency/ThreadTest/demo1/Activity.java .
+  347  bash run 6
+  348  vi run 
+  349  bash run 6
+  350  vi run 
+  351  bash run 6
+  352  vi run 
+  353  vi Activity.java 
+  354  bash run 6
+  355  bash run 8
+  356  vi Activity.java 
+  357  bash run 8
+  358  vi Activity.java 
+  359  bash run 8
+  360  vi Activity.java 
+  361  bash run 8
+  362  bash run 6
+  363  vi Activity.java 
+  364  bash run 6
+  365  bash run 8
+  366  hitory -c
+  367  exit
+  368  exit
+  369  exit
+  370  exit
+  371  nc localhost 4000
+  372  nc localhost 4000
+  373  cd Course/Java/Advanced/Networking/TCPServerTest/demo/
+  374  ./run
+  375  cd ~/Exp
+  376  mysql -h 192.168.1.90 -u root -proot
+  377  mkdir JDBCTest
+  378  cd JDBCTest/
+  379  unzip -d demo1 ~/Course/Java/Advanced/maven-projects/simple-app.zip 
+  380  cd demo1/
+  381  code .
+  382  ./run 
+  383  time
+  384  rm -r target/
+  385  ./run 
+  386  vi run 
+  387  timezone
+  388  date
+  389  date +%Z
+  390  timedatectl 
+  391  vi run 
+  392  time
+  393  ./run
+  394  vi run 
+  395  ./run
+  396  vi run 
+  397  ./run
+  398  vi run 
+  399  ./run
+  400  vi run 
+  401  ./run
+  402  export TZ=IST
+  403  ./run
+  404  vi ~/.bashrc 
+  405  exit
+  406  exit
+  407  vi /etc/resolv.conf 
+  408  ls /etc/resolv.conf 
+  409  ll /etc/resolv.conf 
+  410  vi /mnt/wsl/resolv.conf 
+  411  sudo vi /mnt/wsl/resolv.conf 
+  412  ping dac-Faculty.local
+  413  sudo vi /mnt/wsl/resolv.conf 
+  414  ping dac-Faculty.local
+  415  sudo vi /mnt/wsl/resolv.conf 
+  416  ping dac-Faculty.local
+  417  ping iitdac.met.edu
+  418  hostname -l
+  419  hostname -i
+  420  ping 127.0.1.1
+  421  mysql -h 127.0.1.1 -u root -proot
+  422  vi /etc/hosts
+  423  sudo vi /etc/hosts
+  424  hostname -i
+  425  ping dac-Faculty.local
+  426  sudo vi /etc/hosts
+  427  exit
+  428  clear
+  429  cd Course/Java/Advanced/
+  430  mkdir JDBC
+  431  cd JDBC/
+  432  mkdir ExecSQLTest
+  433  cd ExecSQLTest/
+  434  mysql -h 192.168.1.90 -d sales -u root -proot
+  435  mysql -h 192.168.1.90 -D sales -u root -proot
+  436  unzip -d demo ~/Course/Java/Advanced/maven-projects/simple-app.zip 
+  437  cd demo/
+  438  code .
+  439  ./run 
+  440  ls target/dependency/
+  441  ./run 
+  442  ./run 302
+  443  ./run 
+  444  ./run 305
+  445  cd ..
+  446  mv demo/ demo1
+  447  ssh dacfaculty@iitdac.met.edu
+  448  unzip -d demo2 ~/Course/Java/Advanced/maven-projects/simple-app.zip 
+  449  cd demo2
+  450  code .
+  451  ./run 
+  452  ./run CU103 105 16
+  453  ./run CU104 109 10
+  454  ./run CU104 102 10
+  455  cd ..
+  456  mkdir StoredProcTest
+  457  cd StoredProcTest/ 
+  458  cp -r ../ExecSQLTest/demo2 demo
+  459  cd demo/
+  460  wget -q iitdac.met.edu/shared/data/salesora.sql
+  461  code .
+  462  ./run CU101 102 9
+  463  ./run CU105 104 18
+  464  cd ..
+  465  history >cmd12-05-25evening.txt 
