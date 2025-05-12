@@ -21,11 +21,7 @@ public class Program {
             while(true){
                 //Step 2
                 var client = listener.accept();
-                //a virtual thread is a light-weight JVM managed thread
-                //which executes the specified task using a platform thread
-                //but releasing this thread whenever the task is blocked
-                //by an I/O operation
-                Thread.ofVirtual().start(() -> communicateWith(client));
+                communicateWith(client);
             }
         }
     }
