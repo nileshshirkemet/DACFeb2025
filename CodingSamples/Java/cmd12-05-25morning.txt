@@ -1,0 +1,26 @@
+  371  cd Course/Java/Advanced/Networking/TCPServerTest/demo/
+  372  ls
+  373  code .
+  374  ./run
+  375  code .
+  376  ./run
+  377  cd ..
+  378  mkdir TCPClientTest
+  379  cd TCPClientTest/
+  380  unzip -d demo1 ~/Course/Java/Advanced/maven-projects/simple-app.zip 
+  381  cd demo1/
+  382  code .
+  383  ./run cpu 4 localhost
+  384  ./run ssd 6 localhost
+  385  ./run ssd 600 localhost
+  386  ./run printer 1 localhost
+  387  cd ..
+  388  cp -r demo1 demo2
+  389  cd demo2/
+  390  code .
+  391  ./run cpu 4 iitdac.met.edu
+  392  ./run ssd 6 iitdac.met.edu
+  393  ./run ssd 600 iitdac.met.edu
+  394  ./run xbox 1 iitdac.met.edu
+  395  ./run xbox 1 met.hussain.in
+  396  history > ../../../../cmd12-05-25morning.txt 
