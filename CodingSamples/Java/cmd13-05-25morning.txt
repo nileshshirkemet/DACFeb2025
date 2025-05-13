@@ -1,0 +1,17 @@
+    1  clear
+    2  cd Advanced/
+    3  ls
+    4  mkdir JPA
+    5  cd JPA
+    6  mkdir EntityTest
+    7  cd EntityTest/
+    8  unzip -d demo ../../maven-projects/eclink-app.zip 
+    9  cd demo/
+   10  code .
+   11  mysql -h 192.168.1.90 -u root -proot
+   12  ./run Jack
+   13  ./run Jill
+   14  ./run Jack
+   15  ./run
+   16  mysql -h 192.168.1.90 -u root -proot
+   17  history > ../../../../cmd13-05-25morning.txt 
