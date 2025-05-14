@@ -1,0 +1,15 @@
+    1  cd ..
+    2  ls
+    3  mkdir ServletAPI
+    4  cd ServletAPI/
+    5  mkdir WebServletTest
+    6  cd WebServletTest/
+    7  unzip -d demo1 ../../maven-projects/jetty-webapp.zip 
+    8  code .
+    9  cd demo1
+   10  code .
+   11  ./run
+   12  ./run -Dserver.http.port=5080
+   13  ./run
+   14  cd ..
+   15  history >cmd14-05-25evening.txt 
