@@ -1,0 +1,6 @@
+    1  code .
+    2  ./run 
+    3  ./run 102
+    4  ./run 103
+    5  ./run 101
+    6  history > ../../../../cmd14-05-25morning.txt 
