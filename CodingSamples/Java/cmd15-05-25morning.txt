@@ -1,0 +1,23 @@
+    1  clear
+    2  cd Advanced/ServletAPI/WebServletTest/demo1/
+    3  code .
+    4  ./run 
+    5  cd ..
+    6  unzip -d demo2 ../../maven-projects/jetty-webapp.zip 
+    7  cd demo2
+    8  cp -r ../../../JPA/EntityTest/demo/src/main/java/app/tourism/ src/main/java/app/
+    9  cp -r ../../../JPA/EntityTest/demo/src/main/resources/ src/main/
+   10  vi ../../../JPA/EntityTest/demo/pom.xml 
+   11  notepad.exe ../../../JPA/EntityTest/demo/pom.xml 
+   12  code .
+   13  ./run
+   14  cp ~/Course/DotNet/Advanced/AspNetCoreMvc/ControllerTest/DemoApp2/wwwroot/*.* src/main/webapp/
+   15  ./run
+   16  ls
+   17  cd ..
+   18  ls
+   19  cd ..
+   20  ls
+   21  cd ..
+   22  ls
+   23  history >cmd15-05-25morning.txt
