@@ -7,6 +7,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 
 @WebServlet("/login")
 public class CountingServlet extends HttpServlet {
@@ -16,6 +17,11 @@ public class CountingServlet extends HttpServlet {
         String guest = request.getParameter("user");
         if(guest.length() == 0)
             guest = "Friend";
+        HttpSession session = request.getSession(true);
+        Integer count = (Integer)session.getAttribute(guest);
+        if(count == null)
+            count = 1;
+        session.setAttribute(guest, count + 1);
         response.setContentType("text/html");
         response.getWriter().printf("""
                 <html>
@@ -27,7 +33,7 @@ public class CountingServlet extends HttpServlet {
                         <b>Number of Greetings: </b>%d
                     </body>
                 </html>
-                """, guest, 1);
+                """, guest, count);
     }
     
     
