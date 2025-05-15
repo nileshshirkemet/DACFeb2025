@@ -1,0 +1,6 @@
+app/tourism/data/TripEntity.class
+app/tourism/data/TravelerEntity.class
+app/components/Feedback.class
+app/tourism/models/Visitor.class
+app/tourism/models/SiteModel.class
+app/components/SiteControllerServlet.class
