@@ -1,0 +1,28 @@
+    1  cd Advanced/
+    2  ls
+    3  mkdir Microservices
+    4  cd Microservices/
+    5  mkdir GRPCTest
+    6  cd GRPCTest
+    7  unzip -d contract ../../maven-projects/grpc-protolib.zip 
+    8  cd contract/
+    9  code .
+   10  mvn install
+   11* ls target/generated-sources/protobuf/grpc-java/sales/OrderManagerGrpc.java 
+   12  cd ..
+   13  unzip -d server ../../maven-projects/eclink-app.zip 
+   14  cd server/
+   15  code .
+   16  notepad.exe ../contract/src/main/proto/order_manager.proto 
+   17  netstat -pnlt
+   18  cd ..
+   19  cp -r ~/Course/DotNet/Advanced/Microservices/GRPCTest/DemoApp/ demo
+   20  cd demo/
+   21  ls
+   22  python3 Program.py CU102
+   23  python3 Program.py CU104
+   24  python3 Program.py CU103
+   25  python3 Program.py CU101
+   26  python3 Program.py CU101 101 11
+   27  python3 Program.py CU101
+   28  history > ../../../../cmd19-05-morning.txt 
