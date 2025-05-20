@@ -1,0 +1,19 @@
+    1  cd Course/Java/Advanced/Microservices/GRPCTest/demo/
+    2  python3 Program.py CU101
+    3  cd ../..
+    4  ls
+    5  mkdir RESTTest
+    6  cd RESTTest/
+    7  unzip -d server ../../maven-projects/jersey-restsvc.zip 
+    8  cd server/
+    9  code .
+   10  ./run
+   11  cd ..
+   12  mkdir demo
+   13  cd demo/
+   14  cp ~/Course/DotNet/Advanced/Microservices/RESTTest/DemoApp/wwwroot/* .
+   15  ls
+   16  python3 -m http.server 5001
+   17  vi index.js 
+   18  python3 -m http.server 5001
+   19  history > ../../../../cmd20-05-25morning.txt
