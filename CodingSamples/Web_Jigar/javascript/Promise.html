@@ -1,0 +1,22 @@
+<script>
+    var pObj = new Promise((res,rej)=>{
+        // console.log(typeof res); 
+        setTimeout(()=>{
+            res({msg:'api called',status:200,data:[10,20,30]});
+            // rej({msg:'api failed',status:404,data:null})
+        },3000);
+    });
+    console.log(typeof pObj);
+    console.log(pObj);
+    
+    pObj
+    .then((result)=>{
+        console.log(result);   
+    })
+    .catch((error)=>{
+        console.log(error);  
+    })
+    .finally(()=>{
+        console.log('Another Task');
+    });
+</script>

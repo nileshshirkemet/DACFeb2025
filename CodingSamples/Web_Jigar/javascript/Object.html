@@ -1,0 +1,24 @@
+<script>
+    var product = {
+        name:'Tshirt',
+        price:1000,
+        discount:20,
+        path:"https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/0/5/v/m-kc4245-adidas-original-imahb83ch9q5rggv.jpeg?q=70",
+        size: ["XL",'XXl','M']
+    }
+
+
+    console.log(product);
+    console.log(product.name);
+    console.log(product['name']);
+    
+    document.write(`            
+        <div>
+            <img src="${product.path}" alt="">
+            <h2>${product.price}</h2>
+            <p>${product.name}</p>
+            <p>Size: ${product.size.join(',')}</p>
+            <button>Add To Cart</button>
+        </div>
+    `);
+</script>

@@ -1,0 +1,11 @@
+<div style="border: solid;">
+    SLIDER
+</div>
+<script>
+    var sliderNo = 1;
+    setInterval(()=>{
+        if(sliderNo==5){ sliderNo=1 ;}
+        document.querySelector('div').innerHTML = sliderNo;
+        sliderNo++;
+    } , 3000);
+</script>

@@ -1,0 +1,30 @@
+<script>
+    var brands = ['puma','nike'];
+    console.log(brands);
+
+    brands.push('zara','rado');
+    console.log(brands);
+    
+    brands.unshift('lenovo','tata');
+    console.log(brands);
+
+    console.log(brands.length);    
+    document.write(`
+        <li><input type="checkbox"> ${brands[0]}</li>
+        <li><input type="checkbox"> ${brands[1]}</li>
+        <li><input type="checkbox"> ${brands[2]}</li>
+        <li><input type="checkbox"> ${brands[3]}</li>
+    `);
+
+    brands.forEach(function(val){
+        console.log(val);
+        document.write(`
+            <li><input type="checkbox"> ${val}</li>
+        `)
+    });
+
+    brands.forEach((val,i,self)=>{
+        console.log(val,i,self);      
+    })
+</script>
+

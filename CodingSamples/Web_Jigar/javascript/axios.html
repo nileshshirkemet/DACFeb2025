@@ -1,0 +1,65 @@
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<input type="text" id="txt"/>
+<button id="btn">Get Data</button>
+<p></p>
+<script>
+    const APIKEY = '36e1575e4dd4d02d3fee92c6c81679dc';
+    document.getElementById('btn').addEventListener('click' , ()=>{
+        var city = document.getElementById('txt').value;
+        var apiPath = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKEY}`;
+        // console.log(apiPath);          
+        // console.log(axios);        
+        var result = axios.get(apiPath);
+        // console.log(result);        
+        result.then(answer=>{
+            console.log(answer);
+            console.log(answer.data);
+            console.log(answer.data.wind.speed);            
+            document.querySelector('p').innerHTML=answer.data.wind.speed
+        })
+    })
+</script>
+
+<!-- 
+    MONGO DB COMMANDS
+-->
+
+show dbs;
+use cdac2025;
+db;
+show collections;
+db.createCollection('users');
+show collections;
+
+db.users.insertOne({"name":"rohan" ,"age":23 , "place":"pune"});
+db.users.insertMany();
+db.users.insert([
+    {"name":"jay" ,"age":20 , "place":"mumbai"},
+    {"name":"vijay" ,"age":21 , "place":"mumbai"},
+    {"name":"ajay" ,"age":20 , "place":"thane"},
+    {"name":"sujay" ,"age":21 , "place":"pune"},
+    {"name":"jaya" ,"age":22 , "place":"thane"}
+]);
+
+db.users.find();
+db.users.find().pretty();
+db.users.find({"place":"mumbai"}).pretty();
+
+db.users.find({age:{$eq:20}}).pretty();
+db.users.find({age:{$lte:20}}).pretty();
+db.users.find({age:{$gte:20}}).pretty();
+db.users.find({age:{$lt:20}}).pretty();
+db.users.find({age:{$gt:20}}).pretty();
+db.users.find({age:{$ne:20}}).pretty();
+db.users.find({age:{$in:[20,21,91]}}).pretty();
+db.users.find({$and:[{"name":"jay"},{"place":"mumbai"}]}).pretty();
+db.users.find({$or:[{"name":"jay"},{"place":"pune"}]}).pretty();
+
+db.users.update({"place":"mumbai"},{$set:{"age":10}});
+db.users.updateMany({"place":"mumbai"},{$set:{"age":10}});
+
+db.users.remove({"place":"mumbai"});
+db.users.find();
+db.users.remove({});
+db.users.find();

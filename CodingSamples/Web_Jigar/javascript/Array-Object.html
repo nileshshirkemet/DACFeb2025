@@ -1,0 +1,43 @@
+<script>
+    // var products = new Array({},{},{});
+    var products = new Array(
+        {
+            name:'Tshirt',
+            price:1000,
+            discount:20,
+            path:"https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/0/5/v/m-kc4245-adidas-original-imahb83ch9q5rggv.jpeg?q=70",
+            size: ["XL",'XXl','M']
+        },
+        {
+            name:'jeans',
+            price:1000,
+            discount:20,
+            path:"https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/0/5/v/m-kc4245-adidas-original-imahb83ch9q5rggv.jpeg?q=70",
+            size: ["XL",'XXl','M']
+        },
+        {
+            name:'Belt',
+            price:1000,
+            discount:20,
+            path:"https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/0/5/v/m-kc4245-adidas-original-imahb83ch9q5rggv.jpeg?q=70",
+            size: ["XL",'XXl','M']
+        }
+    );
+    console.log(products);
+    
+    if(products.length > 0){
+        products.forEach(function(val){
+            console.log(val);
+            var{name,price,path} = val;
+            console.log(name,price,path);
+            document.write(`            
+                <div>
+                    <img src="${path}" alt="">
+                    <h2>${price}</h2>
+                    <p>${name}</p>
+                    <button>Add To Cart</button>
+                </div>
+            `);  
+        })
+    }
+</script>
