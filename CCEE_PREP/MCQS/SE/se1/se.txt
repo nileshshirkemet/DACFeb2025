@@ -1,0 +1,324 @@
+﻿1. 	Given a source code with 10 operators includes 6 unique operators, and 6 operand including 2 unique operands. The program volume is ? 		 
+1) 	48
+2) 	120
+3) 	720
+4) 	insufficient data
+	
+Correct Answer: 48   [hide]
+	Marks: 1
+	
+	
+2. 	In the system conceps, term organization ? 		 
+1) 	implies structure and order
+2) 	refers to the manner in which each component fuctions with other components of the system
+3) 	refers to the holism of system
+4) 	means that part of the computer system depend on one another
+	
+Correct Answer: implies structure and order   [hide]
+	Marks: 1
+	
+	
+3. 	In the system concepts, the term integration ? 		 
+1) 	implies structure and order
+2) 	refers to the manner in which each component functions with other components of the system
+3) 	means that parts of computer system depends on one another
+4) 	refers to the holism of systems
+	
+Correct Answer: refers to the holism of systems   [hide]
+	Marks: 1
+	
+	
+4. 	Project indicator enables a software project manager to ? 		 
+1) 	assess the status of an ongoing project
+2) 	track potential risks
+3) 	uncover problem areas before they " go critical "
+4) 	All of above
+	
+Correct Answer: All of above   [hide]
+	Marks: 1
+	
+	
+5. 	Once object oriented programming has been accomplished, unit testing is applied for each class. Class tests includes ? 		 
+1) 	Fault based testing
+2) 	Random testing
+3) 	Partition teting
+4) 	All of above
+	
+Correct Answer: All of above   [hide]
+
+...... Developed a set of software quality factors that has been given the acronym FURPS - Functinality, Usability, Reliability, performance, Supportability ? 		 
+1) 	Hewlett - Packard
+2) 	Rambaugh
+3) 	Booch
+4) 	Jacobson
+	
+Correct Answer: Hewlett - Packard   [hide]
+	Marks: 1
+	
+	
+7. 	In system design, we do following ? 		 
+1) 	Hardware design after software
+2) 	Software design after hardware
+3) 	Parallel hardware and software design
+4) 	No hardware design needed
+	
+Correct Answer: Parallel hardware and software design   [hide]
+	Marks: 1
+	
+	
+8. 	The document listing all procedures and regulations that generally govern an organization is the ? 		 
+1) 	Personal poling bank
+2) 	Organizing manual
+3) 	Administration policy manual
+4) 	Procedure log
+	
+Correct Answer: Organizing manual   [hide]
+	Marks: 1
+	
+	
+9. 	A turnkey package includes ? 		 
+1) 	Software
+2) 	Hardware
+3) 	Traning
+4) 	All of above
+	
+Correct Answer: All of above   [hide]
+	Marks: 1
+	
+	
+10. 	Detailed design is expressed by ? 		 
+1) 	CSPEC
+2) 	PSPEC
+3) 	MINI SPEC
+4) 	Code SPEC
+	
+Correct Answer: MINI SPEC   [hide]
+
+11. 	White box testing, a software testing technique is sometimes called ? 		 
+1) 	Basic path
+2) 	Graph Testing
+3) 	Dataflow
+4) 	Glass box testing
+	
+Correct Answer: Glass box testing   [hide]
+	Marks: 1
+	
+	
+12. 	Black box testing sometimes called ? 		 
+1) 	Data Flow testing
+2) 	Loop Testing
+3) 	Behavioral Testing
+4) 	Graph Based Testing
+	
+Correct Answer: Behavioral Testing   [hide]
+	Marks: 1
+	
+	
+13. 	Which of the following is a type of testing ? 		 
+1) 	Recovery Testing
+2) 	Security Testing
+3) 	Stress Testing
+4) 	All of above
+	
+Correct Answer: All of above   [hide]
+	Marks: 1
+	
+	
+14. 	The objective of testing is ? 		 
+1) 	Debugging
+2) 	To uncover errors
+3) 	To gain modularity
+4) 	To analyze system
+	
+Correct Answer: To uncover errors   [hide]
+	Marks: 1
+	
+	
+15. 	...... is a black box testing method ? 		 
+1) 	Boundary value analysis
+2) 	Basic path testing
+3) 	Code path analysis
+4) 	None of above
+	
+Correct Answer: Boundary value analysis   [hide]
+
+16. 	Structured programming codes includes ? 		 
+1) 	sequencing
+2) 	alteration
+3) 	iteration
+4) 	only A, B and C
+	
+Correct Answer: only A, B and C   [hide]
+	Marks: 1
+	
+	
+17. 	An important aspect of coding is ? 		 
+1) 	Readability
+2) 	Productivity
+3) 	To use as small memory space as possible
+4) 	brevity
+	
+Correct Answer: Readability   [hide]
+	Marks: 1
+	
+	
+18. 	Data structure suitable for the application is discussed in ? 		 
+1) 	data design
+2) 	architectural design
+3) 	procedural design
+4) 	interface design
+	
+Correct Answer: data design   [hide]
+	Marks: 1
+	
+	
+19. 	In object oriented design of software , objects have ? 		 
+1) 	attributes and names only
+2) 	operations and names only
+3) 	attributes, name and operations
+4) 	None of above
+	
+Correct Answer: attributes, name and operations   [hide]
+	Marks: 1
+	
+	
+20. 	Function oriented metrics were first proposed by ? 		 
+1) 	John
+2) 	Gaffney
+3) 	Albrecht
+4) 	Basili
+	
+Correct Answer: Albrecht   [hide]
+
+1. 	Application developed should fit user�s business process. The components of fit are 		 
+1) 	Data
+2) 	People
+3) 	Structure
+4) 	All of the above
+	
+Correct Answer: All of the above   
+	
+	
+	
+2. 	Which is not the responsibility of customer/ user of the software 		 
+1) 	Plan how and by whom each acceptance activity will be performed
+2) 	Prepare the acceptance plan
+3) 	Prepare resource plan
+4) 	Plan resources for providing information on which to base acceptance decisions
+	
+Correct Answer: Prepare resource plan   
+	
+	
+	
+3. 	In preparation for developing the acceptance criteria, the user should 		 
+1) 	Know the defects in the application
+2) 	Acquire the basic knowledge of the application for which the system is intended
+3) 	Understand the risks and benefits of the development methodology that is to be used in correcting the software system
+4) 	Know new enhancement and basic understanding of how the application is implemented in users organization
+	
+Correct Answer: Understand the risks and benefits of the development methodology that is to be used in correcting the software system   
+	
+	
+	
+4. 	Acceptance requirements that a system should meet its 		 
+1) 	Usability
+2) 	Understandability
+3) 	Functionality
+4) 	Enhancements
+	
+Correct Answer: Functionality   
+	
+	
+	
+5. 	Testing techniques that can be used in acceptance testing are 		 
+1) 	Structural
+2) 	Functional
+3) 	A and B
+4) 	B and C
+	
+Correct Answer: B and C   
+
+
+6. 	For final software acceptance testing, the system should include 		 
+1) 	Delivered software
+2) 	All user documents
+3) 	Final version of other software deliverables
+4) 	All of the above
+	
+Correct Answer: All of the above   
+	
+	
+	
+7. 	Acceptance testing means 		 
+1) 	Testing performed on a single stand alone module or unit of code
+2) 	Testing after changes have been made to ensure that no unwanted changes were introduced
+3) 	Testing to ensure that the system meets the needs of the organization and end user.
+4) 	Users test the application in the developers environment
+	
+Correct Answer: Testing to ensure that the system meets the needs of the organization and end user.   
+	
+	
+	
+8. 	Acceptance tests are normally conducted by the 		 
+1) 	Developer
+2) 	End users
+3) 	Test team
+4) 	Systems engineers
+	
+Correct Answer: End users   
+
+1. 	Tools usage 		 
+1) 	Very helpful in regression testing
+2) 	Saves time
+3) 	Helpful in simulating Users
+4) 	All of the above.
+	
+Correct Answer: All of the above.   
+	
+	
+	
+2. 	What is the scenario in which automation testing can be done: 1) Application is stable 2) Usability testing is to be done 3) The project is short term 4) Long term project having numerous releases 		 
+1) 	1
+2) 	1 & 4
+3) 	1 & 2
+4) 	2 & 3
+	
+Correct Answer: 1 & 4   
+	
+	
+	
+3. 	What is the common limitation of automated testing? 		 
+1) 	They are not useful for performance testing
+2) 	They cannot be used for requirement validation
+3) 	It is very difficult for automated scripts to verify a wide range of application responses.
+4) 	They are not useful when requirements are changing frequently
+	
+Correct Answer: They are not useful when requirements are changing frequently   
+	
+	
+	
+4. 	The extent of automation for a given project is generally guided by 		 
+1) 	Scope for automation
+2) 	Tool support
+3) 	Business Functionality
+4) 	Vendor's skills
+	
+Correct Answer: Scope for automation   
+	
+	
+	
+5. 	What are the main attributes of test automation 1) Time saving 2) Correctness 3) Less Manpower 4) More reliable 		 
+1) 	1 and 2
+2) 	2 and 3
+3) 	1, 2 , 3 and 4
+4) 	None of the above
+	
+Correct Answer: 1, 2 , 3 and 4   
+
+6. 	Some of the common problems of test automation are 		 
+1) 	Changing requirements
+2) 	Lack of time
+3) 	Both a and b
+4) 	None of the above
+	
+Correct Answer: Both a and b   

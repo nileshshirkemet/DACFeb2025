@@ -1,0 +1,721 @@
+﻿MCQ: Software Engineering
+Software is
+A. Superset of programs 
+B. Subset of programs
+C. Set of programs
+D. None
+Answer: A
+
+Which is NOT the part of operating procedure Manuals?
+A. User Manuals
+B. Documentation Manuals 
+C. Operational Manual
+D. Installation Manual
+Answer: B
+
+Product is
+A. Deliverables
+B. User Expectations
+C. Organization’s effort in development
+D. None
+Answer: A
+
+To produce a good quality product, process should be
+A. Complex
+B. Efficient
+C. Rigorous
+D. None
+Answer: B
+
+During s/w development which factor is most crucial?
+A. People
+B. Product
+C. Process
+D. All of the above
+Answer: A
+
+UML Stands for
+A. Uniform modeling language
+B. Unit Modeling Language
+C. Unified modeling language
+D. Universal Modeling Language
+Answer:  C
+
+Software Consists of
+A. set of instructions + operating system
+B. Programs + documentation + operating procedure
+C. Programs + hardware
+D. Set of programs
+Answer:  B
+
+Software Engineering approach is used to achieve
+A. Better performance of h/w
+B. Error free s/w
+C. Reusable software
+D. Quality software product
+Answer: D
+
+Which is not a software life cycle model
+A. Water fall
+B. Spiral
+C. Prototype
+D. Capability Maturity Model 
+Answer: D
+
+Project Risk Factor is considered in
+A. Water fall
+B. Spiral
+C. Prototype
+D. Iterative enhancement model
+Answer: B
+
+If requirements are understandable, easy, defined, which model is best suited
+A.Water fall 
+B. Spiral
+C.Prototype
+D.None
+Answer: A
+
+If requirements are frequently changing, which model is best suited
+A.Water fall 
+B. Spiral
+C. Prototype
+D.RAD
+Answer: C
+
+Which one is the most important feature of spiral model?
+A.Quality management
+B.Risk Management
+C.Performance Management
+D.Efficiency management
+Answer:B
+
+Statistically, the maximum percentage of errors belong to the following phase of SDLC
+A.Coding
+B.Design
+C.Specifications
+D.Installation and maintenance
+Answer:C
+
+Most suitable model for new technology that is not well understood is:
+A.Waterfall model
+B.RAD Model
+C.Iterative enhancement model
+D.Evolutionary development model
+Answer:D
+
+Which phase is not available in s/w life cycle?
+A.Coding
+B.Design
+C.Specifications
+D.Installation & Maintenance
+Answer: D
+
+
+The development is supposed to proceed linearly through the phases in
+A.Spiral model
+B.Waterfall model
+C.Prototyping model
+D.None
+Answer:B
+
+Process of generating analysis and design documents is called
+A.Inverse Engineering
+B.Reverse Engineering
+C.Software Engineering
+D.Re-Engineering
+Answer: B
+
+Regression testing is primarily related to
+A.functional testing
+B.data flow testing
+C.Development testing
+D.Maintenance Testing
+Answer:D
+
+Which one is not a category of maintenance?
+A.Corrective maintenance
+B.Effective maintenance
+C.Adaptive Maintenance
+D.Perfective maintenance
+Answer:B
+
+
+The maintained initiated by defects in the s/w is called
+A.Corrective maintenance
+B.Effective maintenance
+C.Adaptive Maintenance
+D.Perfective maintenance
+Answer: A
+
+Patch is known as
+A. Emergency fixes
+B.Routine fixes
+C.Critical fixes
+D.None
+Answer: A
+
+
+The following s/w process model can be represented schematically as a series of major technical activities and there associated sate?
+A.Incremental model
+B.Component assembly
+C.Concurrent development model
+D.All of the above
+Answer:C
+
+A data model consists of the following information?
+A.Data Object
+B.The attributes that describe data object
+C.Relationship that connect data object to one another
+D.All of the above
+Answer: D
+
+What is the modality of relationship, if there is no explicit need for relationship to occur?
+A.One
+B.Two
+C.Three
+D.four
+Answer: A
+
+
+The object relationship pair of data model is represented graphically by using
+A. Data flow diagram
+B. Flow chart
+C. Entity relationship diagram
+D. All of the above
+Answer: C
+
+Which architecture provide framework for information needs of a business function?
+A.Application architecture
+B.Technology infrastructure
+C.Data structure
+D.All of the above
+Answer: A
+
+Which life cycle mode suggests a systematic, sequential, approach to s/w development that begins at system level and processes through analysis, design, coding and maintenance
+A.Waterfall model
+B.Prototype model
+C.Sequential model
+D.RAD model
+Answer:A
+
+Which s/w package model composes application from prepackaged s/w components
+A.Component assembly model
+B.Concurrent development model
+C.Incremental model
+D.None
+Answer: A
+
+The primary aim of the s/w engg. Is to provide
+A.Reliable s/w
+B.According to requirement a complete s/w
+C.Cost- effective s/w
+D.All of the above
+Answer: D
+
+A good requirement specification should be,
+A.Unambiguous
+B.Distinctly specific
+C.Functional
+D.None
+Answer: A
+
+Related to object oriented design of s/w, which of the following is not true
+A.Object inherit the properties of a class
+B.Classes are defined based on attributes of objects
+C.An object can belongs to two classes
+D.None
+Answer:C
+
+Design phase include
+A.Data architectural and procedural design only
+B.Architectural, procedural, and interface design only
+C.Data, Architectural,  and interface design only
+D.Data, architectural, interface and procedural design only
+Answer: D
+
+In s/w engineering approach the design phase is,
+A.Top down
+B.Bottom up
+C.Random
+D.Centre fringing
+Answer: A
+
+Following are the categories of the automated system
+A.Online system
+B.Real time system
+C.Decision support system
+D.None
+
+The main difference between program testing and system testing is,
+A.Program testing is more comprehensive that system testing
+B.System testing focuses on testing the interface between program and program testing focuses on individual programs.
+C. System testing is tough and program testing is easy.
+D.None
+Answer: B
+
+The largest percentage of total life cycle cost of s/w is
+A. Design cost
+B. Maintenance cost
+C. Coding cost
+D. Testing cost
+Answer: A
+
+The static system model exhibits which type of relationship?
+A. Time cost
+B. Activity time
+C. Quantity time
+D. None
+Answer: B
+
+System implementation phase consists of
+A. System checkout
+B. Pilot run
+C. Parallel run
+D. All of the above
+Answer: B
+
+The computer programs produced by structural design are,
+A. Easily maintained
+B. Easily understood
+C. Tested in a bottom –up fashion
+D. a and b only
+Answer: D
+
+Increase in profits caused by a new system. Select the best fit for this answer
+A. Cost/benefit analysis
+B. Costs
+C. Regrets
+D. Benefits
+Answer:A
+
+A multistep process to cinveive, design and impilment an information system. Select best fit for this answer
+A. Benefits
+B. System development life cycle
+C. System investigation
+D. Feasibility study
+Answer: B
+
+Detetmines the organisation’s economic, technical and opertional feaibility of a proposed infornatub system. Select the best fit for this answer
+A. Benefits
+B. System development life cycle
+C. System investigation
+D. Feasibility study
+Answer: D
+
+The technique which is used to totally remove existing system and immediately implimenting new system is called
+A. Crash converstion
+B. Phased converstion
+C. Pilot conversion
+D. Parallel converstion
+Answer:C
+
+Which of the followin is not considered a tool at system design phase?
+A. Data flow diagram
+B. Decision table
+C. Pie charts
+D. System flow chart
+Answer: A
+
+Coding & testing is done in following manner.
+A. Adhoc
+B. Cross sectional
+C. Bottom up
+D. Top-down
+Answer: B
+
+Checking quality of s/w in both simulated and live environments is known as,
+A. Checking
+B. Usability
+C. Validity
+D. Validation
+Answer: B
+
+The most creative and challenging phase of system life cycle is,
+A. Feasibility study
+B. Maintenance
+C. Design
+D. None
+Answer: C
+
+Which of the following is not a component of object oriented s/w engineering?
+A. Process
+B. Method
+C. Architecture
+D. None
+Answer: C
+
+The largest percentage of total life cycle cost of s/w is
+A. Design cost
+B. Maintenance cost
+C. Coding cost
+D. Testing cost
+Answer:  A
+
+With thorough testing it is possible to remove all defects from a program prior to delivery to the customer.
+A.   True
+B.   False
+ANSWER: B
+
+Which of the following are characteristics of testable software ?
+A.   observability
+B.   simplicity
+C.   stability
+D.   all of the above
+ANSWER: D
+
+The testing technique that requires devising test cases to demonstrate that each program function is operational is called
+A.   black-box testing
+B.   glass-box testing
+C.   grey-box testing
+D.   white-box testing
+ANSWER: A
+
+The testing technique that requires devising test cases to exercise the internal logic of a software module is called
+A.   behavioral testing
+B.   black-box testing
+C.   grey-box testing
+D.   white-box testing
+ANSWER: D
+
+What types of errors are missed by black-box testing and can be uncovered by white-box testing ?
+A.   behavioral errors
+B.   logic errors
+C.   typographical errors
+D.   BOTH B AND C
+ANSWER: D
+
+Program flow graphs are identical to program flowcharts.
+A.   True
+B.   False
+ANSWER: B
+
+The cyclomatic complexity metric provides the designer with information regarding the number of
+A.   cycles in the program
+B.   errors in the program
+C.   independent logic paths in the program
+D.   statements in the program
+ANSWER: C
+
+The cyclomatic complexity of a program can be computed directly from a PDL representation of an algorithm without drawing a program flow graph.
+A.   True
+B.   False
+ANSWER: A
+
+Condition testing is a control structure testing technique where the criteria used to design test cases is that they
+A.   rely on basis path testing
+B.   exercise the logical conditions in a program module
+C.   select test paths based on the locations and uses of variables
+D.   focus on testing the validity of loop constructs
+ANSWER: B
+
+Data flow testing is a control structure testing technique where the criteria used to design test cases is that they
+A.   rely on basis path testing
+B.   exercise the logical conditions in a program module
+C.   select test paths based on the locations and uses of variables
+D.   focus on testing the validity of loop constructs
+ANSWER: C
+
+Loop testing is a control structure testing technique where the criteria used to design test cases is that they
+A.   rely basis path testing
+B.   exercise the logical conditions in a program module
+C.   select test paths based on the locations and uses of variables
+D.   focus on testing the validity of loop constructs
+ANSWER: D
+
+Black-box testing attempts to find errors in which of the following categories
+A.   incorrect or missing functions
+B.   interface errors
+C.   performance errors
+D.   all of the above
+ANSWER: D
+
+Graph-based testing methods can only be used for object-oriented systems
+A.   True
+B.   False
+ANSWER: B
+
+Equivalence testing divides the input domain into classes of data from which test cases can be derived to reduce the total number of test cases that must be developeD. 
+A.   True
+B.   False
+ANSWER: A
+
+Boundary value analysis can only be used to do white-box testing.
+A.   True
+B.   False
+ANSWER: B
+
+Comparison testing is typically done to test two competing products as part of customer market analysis prior to product release.
+A.   True
+B.   False
+ANSWER: B
+
+Orthogonal array testing enables the test designer to maximize the coverage of the test cases devised for relatively small input domains.
+A.   True
+B.   False
+ANSWER: A
+
+Test case design "in the small" for OO software is driven by the algorithmic detail of the individual operations.
+A.   True
+B.   False
+ANSWER: A
+
+Encapsulation of attributes and operations inside objects makes it easy to obtain object state information during testing.
+A.   True
+B.   False
+ANSWER: B
+
+Use-cases can provide useful input into the design of black-box and state-based tests of OO software.
+A.   True
+B.   False
+ANSWER: A
+
+Fault-based testing is best reserved for
+A.   conventional software testing
+B.   operations and classes that are critical or suspect
+C.   use-case validation
+D.   white-box testing of operator algorithms
+ANSWER: B
+
+Testing OO class operations is made more difficult by
+A.   encapsulation
+B.   inheritance
+C.   polymorphism
+D.   both b and c
+ANSWER: D
+
+Scenario-based testing
+A.   concentrates on actor and software interaction
+B.   misses errors in specifications
+C.   misses errors in subsystem interactions
+D.   both a and b
+ANSWER: A
+
+Deep structure testing is not designed to
+A.   examine object behaviors
+B.   exercise communication mechanisms
+C.   exercise object dependencies
+D.   exercise structure observable by the user
+ANSWER: D
+
+Random order tests are conducted to exercise different class instance life histories.
+A.   True
+B.   False
+ANSWER: A
+
+Which of these techniques is not useful for partition testing at the class level
+A.   attribute-based partitioning
+B.   category-based partitioning
+C.   equivalence class partitioning
+D.   state-based partitioning
+ANSWER: C
+
+Multiple class testing is too complex to be tested using random test cases.
+A.   True
+B.   False
+ANSWER: B
+
+Tests derived from behavioral class models should be based on the
+A.   data flowdiagram
+B.   object-relation diagram
+C.   state diagram
+D.   use-case diagram
+ANSWER: C
+
+Client/server architectures cannot be properly tested because network load is highly variable.
+A.   True
+B.   False
+ANSWER: B
+
+Real-time applications add a new and potentially difficult element to the testing mix
+A.   performance
+B.   reliability
+C.   security
+D.   time
+ANSWER: D
+
+What is the meaning of COSO ?
+A.  Common Sponsoring Organizations
+B.  Committee Of Sponsoring Organizations
+C.  Committee Of Standard Organizations
+D.  Common Standard Organization
+ANSWER: B
+
+Which one is not key term used in internal control and security
+A.  Threat
+B.  Risk Control
+C.  Vulnerability
+D.  Exposure
+ANSWER: C
+
+Management is not responsible for an organization internal control system
+A.  True
+B.  False
+ANSWER: B
+
+Who is ultimate responsible for the internal control system
+A.  CEO
+B.  Project Manager
+C.  Technical Manager
+D.  Developer
+ANSWER: A
+
+
+
+The sole purpose of the Risk Control is to avoid risk
+A.  True
+B.  False
+ANSWER: B
+
+Management controls involves limiting access to computer resources
+A.  True
+B.  False
+ANSWER: A
+
+Software developed by contractors who are not part of the organization is referred to as in sourcing organizations
+A.  True
+B.  False
+ANSWER: B
+
+Which one is not tester responsibilities ?
+A.  Assure the process for contracting software is adequate
+B.  Review the adequacy of the contractors test plan
+C.  Perform acceptance testing on the software
+D.  Assure the ongoing operation and maintenance of the contracted software
+ANSWER: A
+
+The software tester may or may not be involved in the actual acceptance testing
+A.  True
+B.  False
+ANSWER: A
+
+In the client systems, testing should focus on performance and compatibility
+A.  True
+B.  False
+ANSWER: B
+
+A database access applications typically consists of following elements except
+A.  User Interface code
+B.  Business login code
+C.  Data-access service code
+D.  Data Driven code
+ANSWER: D
+
+Wireless technologies represent a rapidly emerging area of growth and importance for providing ever-present access to the internet and email.
+A.  True
+B.  False
+ANSWER: A
+
+Acceptance testing involves procedures for identifying acceptance criteria for interim life cycle products and for accepting them.
+A.  True
+B.  False
+ANSWER: A
+
+Acceptance testing is designed whether or not the software is “fit” for the user to use. The concept of “fit” is important in both design and testing. There are four components of “fit”.
+A.  True
+B.  False
+ANSWER: A
+
+Acceptance testing occurs only at the end point of the development process; it should be an ongoing activity that test both interim and final products.
+A.  True
+B.  False
+ANSWER: B
+
+Acceptance requirement that a system must meet can be divided into ________ categories.
+A.  Two
+B.  Three
+C.  Four
+D.  Five
+ANSWER: C
+
+ _______ categories of testing techniques can be used in acceptance testing.
+A.  Two
+B.  Three
+C.  Four
+D.  Five
+ANSWER: A
+
+ _____________ define the objectives of the acceptance activities and a plan for meeting them.
+A.  Project Manager
+B.  IT Manager
+C.  Acceptance Manager
+D.  ICO
+ANSWER: C
+
+Software Acceptance testing is the last opportunity for the user to examine the software for functional, interface, performance, and quality features prior to the final acceptance review.
+A.  True
+B.  False
+ANSWER: A
+
+_________ categories of data will be collected during testing.
+A.  Two
+B.  Three
+C.  Four
+D.  Five
+ANSWER: C
+
+ ______________ is normally a reverse of the test development process. In other words, it begins at the very lowest level and the results are rolled up to the highest levels.
+A.  Conducting testing
+B.  Resuming testing
+C.  Acceptance testing
+D.  None of the above
+ANSWER: A
+
+Which one is called as most common test report ?
+A.  Test Summary Report
+B.  Check List
+C.  Spreadsheet
+D.  Cause-Effect Graphing
+ANSWER: C
+
+Verification that the process deliverables/ phases are meeting the user’s true needs is called as
+A.  Inspections
+B.  Reviews
+C.  Acceptance testing
+D.  Acceptance criteria
+ANSWER: B
+
+ _____________ the reporting process is very important because software tools are being upgraded, and manual supporting activities sometimes break down.
+A.  Analyzing
+B.  Monitoring
+C.  Both A & B
+D.  None of the above
+ANSWER: B
+
+ _______________ report provides information related to a specific project component.
+A.  Individual Project Status Report
+B.  Major Project Status Report
+C.  Both A & B
+D.  None of the Above
+ANSWER: B
+
+________________ report provides general information about all projects.
+A.  Individual Project Status Report
+B.  Major Project Status Report
+C.  Both A & B
+D.  None of the Above
+ANSWER: D
+
+The Project Status Report contains the project activities information and give a history of the project over a 16-month perioD.
+A.  True
+B.  False
+ANSWER: A
+
+The test reports are for use by the testers, the test manager, and the software development team.
+A.  True
+B.  False
+ANSWER: A
+
+ _________ is a risk-oriented activity in which resources should be expended to minimize the major risks.
+A.  Testing
+B.  Development
+C.  Quality Control
+D.  Quality Assurance
+ANSWER: A
+
+ _______________ measure the characteristics of the documentation and code.
+A.  Process metric
+B.  Product metric
+C.  Software quality metric
+D.  Software metric
+ANSWER: B
